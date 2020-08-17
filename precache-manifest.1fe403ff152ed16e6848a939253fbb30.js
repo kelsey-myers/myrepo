@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "975458eb4230f9cb62e83bbb3ef2b52f",
+    "revision": "100ced819cefc779a1107d3e5af08eb9",
     "url": "/myrepo/index.html"
   }
 ];
