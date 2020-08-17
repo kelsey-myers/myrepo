@@ -19,7 +19,6 @@ export default function Kelmone() {
 
     return (
         <div>
-            <p className="work-sans-400 primary">Click on the below images to enlarge them. All images were screenshotted on an iPad.</p><br/>
         <Carousel indicators={false} interval={null} >
                 <Carousel.Item>
                 <ModalImage

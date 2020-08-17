@@ -13,7 +13,6 @@ export default function Google() {
 
     return (
         <div>
-            <p className="work-sans-400 primary">Click on the below image to enlarge it. All images were screenshotted on an iPad.</p><br/>
             <Carousel controls={false} indicators={false} interval={null} >
                 <Carousel.Item>
                 <ModalImage

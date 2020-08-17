@@ -54,6 +54,7 @@ export default function Portfolio() {
         <Dropdown.Item eventKey="2" onSelect={(eventKey) => handleSelect(eventKey)}>TT Trade Quotes</Dropdown.Item>
         <Dropdown.Item eventKey="3" onSelect={(eventKey) => handleSelect(eventKey)}>RahmoneTK</Dropdown.Item>
     </DropdownButton>
+    <p className="work-sans-400 primary">Select a project above and click on the below images to enlarge them. All images were screenshotted on an iPad.</p><br/>
     <CSSTransition 
                 in={inProp}
                 classNames="item" 

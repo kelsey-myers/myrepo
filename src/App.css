@@ -145,6 +145,12 @@ html, body {
   font-size: 1.1em;
 }
 
+.profile {
+  border: 1px solid #808080;
+  height: 15vh;
+  width: auto;
+}
+
 /*Portfolio Component*/
 .dropdown button {
   background: transparent;
@@ -182,11 +188,13 @@ button:focus {
 .gallery-img {
   width: 40vw;
   height: auto;
+  border: 1px solid #808080;
 }
 
 .gallery-img-portrait {
   width: auto;
   height: 55vh;
+  border: 1px solid #808080;
 }
 
 #bootstrap-overrides .carousel-indicators li {
