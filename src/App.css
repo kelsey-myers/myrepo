@@ -1,38 +1,200 @@
-.App {
-  text-align: center;
+/*Misc CSS*/
+
+@font-face {
+  font-family: Roboto;
+  src: url('./fonts/Roboto/Roboto-Thin.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Work Sans;
+  src: url('./fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  text-decoration: none !important;
+}
+
+
+.roboto {
+  font-family: Roboto;
+}
+
+.work-sans {
+  font-family: Work Sans;
+  font-variation-settings: 'wght' 100;
+}
+
+.work-sans-200 {
+  font-family: Work Sans;
+  font-variation-settings: 'wght' 200;
+}
+
+.work-sans-300 {
+  font-family: Work Sans;
+  font-variation-settings: 'wght' 300;
+}
+
+.work-sans-400 {
+  font-family: Work Sans;
+  font-variation-settings: 'wght' 400;
+}
+
+.nav-mt {
+  margin-top: 57px;
+}
+
+.fixed-top-2 {
+  position: fixed !important;
+  top: 57px;
+  right: 0;
+  left: 0;
+  z-index: 1030;}
+
+html, body {
+  background-color: black;
+}
+
+.black {
+  background-color: #000;
+}
+
+.primary {
+  color: #DFDFDF !important;
+}
+
+.secondary {
+  color: #808080;
+}
+
+.title {
+  font-size: 4rem;
+  margin: 3vh 0vh;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.center-hv{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.padding {
+  padding-top: 15vh;
+}
+
+.flex-center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.content-border {
+  border: 1px solid #808080;
+}
+
+.bb {
+  border-bottom: 1px solid #808080;
+}
+
+.hr {
+  width: 10vw;
+  border-top: 1px solid #808080;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+
+/*About Component*/
+.medium {
+  font-size: 1.1em;
+}
+
+/*Portfolio Component*/
+.dropdown button {
+  background: transparent;
+  color: #DFDFDF;
+  border: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+#bootstrap-overrides .dropdown-item {
+  color: #DFDFDF;
+  background-color: black;
+}
+
+#bootstrap-overrides .dropdown-menu {
+  padding: 0 0;
+}
+
+#bootstrap-overrides .btn-primary {
+  background: transparent;
+  border: none
+}
+
+#bootstrap-overrides .btn-primary:focus {
+    box-shadow: 0 0 0 0.1rem #808080;
+    border-radius: 0;
+}
+
+/*Projects Component*/
+
+
+/*Contact Component*/
+.larger {
+  font-size: 1.7em;
+}
+
+.contact { 
+  transition: all .2s ease-in-out; 
+}
+
+.contact:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 576px) { 
+  
+ }
+
+@media screen and  (min-width: 768px) { 
+  .title {
+    font-size: 6rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .padding {
+    padding-top: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+
+@media screen and (min-width: 992px) { 
+ 
+ }
+
+@media screen and (min-width: 1200px) { 
+  
+ }
