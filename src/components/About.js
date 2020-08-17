@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function About() {
   return (
-    <Col className="p-5 content-border offset-2">
+    <Col className="p-5">
       <h1 className="primary work-sans-200"> About the Developer </h1>
       <hr className="hr" />
       <br />
@@ -17,8 +17,10 @@ export default function About() {
         Science and in the
         meantime, I enjoy creating websites for clients and working on my
         own personal projects. Feel free to browse what I've created and get in
-        contact if you'd like some work done!
-      </p>
+        contact if you'd like some work done! <br/><br/>
+        Click on the headings to view my work.
+      </p> 
+  
     </Col>
   );
 }

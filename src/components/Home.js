@@ -9,8 +9,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import About from './About';
-import Portfolio from './Portfolio';
-import Projects from './Projects';
+import Portfolio from './portfolio/Portfolio';
+import Projects from './projects/Projects';
 import Contact from './Contact';
 
 import { CSSTransition} from 'react-transition-group';
@@ -59,12 +59,15 @@ export default function Home() {
         </Nav>
         </Navbar>
     
-      <Container fluid="md" className="black padding text-center center-hv">
-        <Row className="mx-auto">
-          <Col xs={"auto"}  className="flex-center">
-            <h1 className="secondary title work-sans"> My<span className="title primary work-sans-200 inline">Repo</span></h1>
+      <Container className="centering padding-fit">
+        <Row >
+          <Col>
+            <h1 className="secondary title work-sans mb-0"> My<span className="title primary work-sans-200 inline">Repo</span></h1>
+            <hr className="hr-long mt-0"/>
           </Col>
-            <CSSTransition 
+        </Row>
+        <Row>
+        <CSSTransition 
                 in={inProp}
                 classNames="item" 
                 onExiting={() => setInProp(true)}

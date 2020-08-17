@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import '../../App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Col from "react-bootstrap/Col";
@@ -10,6 +10,7 @@ import Kelmone from './Kelmone';
 import TTTrade from './TTTrade';
 import Rahmone from './Rahmone';
 
+import { CSSTransition} from 'react-transition-group';
 
 export default function Portfolio() {
 
@@ -17,6 +18,9 @@ export default function Portfolio() {
     name: "Kelmone School of Motoring",
     comp: <Kelmone/>
   })
+  const [inProp, setInProp] = React.useState(true);
+
+
 
   const handleSelect = (e) => {
     
@@ -24,22 +28,25 @@ export default function Portfolio() {
       setCurrent({
         name: "Kelmone School of Motoring",
         comp: <Kelmone/>
-      })
+      });
+      setInProp(false)
     } else if (e === "2") {
       setCurrent({
         name: "TT Trade Quotes",
         comp: <TTTrade/>
-      })
+      });
+      setInProp(false)
     } else if (e === "3") {
       setCurrent({
         name: "RahmoneTK",
         comp: <Rahmone/>
-      })
+      });
+      setInProp(false)
     }   
   }
 
   return (
-    <Col className="content-border p-5 offset-2 work-sans-300">
+    <Col className="p-5 work-sans-300 ">
       <h1 className="primary work-sans-200"> Portfolio </h1>
       <hr className="hr" />
       <DropdownButton title={current.name} className="dropdown mb-4">
@@ -47,7 +54,13 @@ export default function Portfolio() {
         <Dropdown.Item eventKey="2" onSelect={(eventKey) => handleSelect(eventKey)}>TT Trade Quotes</Dropdown.Item>
         <Dropdown.Item eventKey="3" onSelect={(eventKey) => handleSelect(eventKey)}>RahmoneTK</Dropdown.Item>
     </DropdownButton>
-      {current.comp}
+    <CSSTransition 
+                in={inProp}
+                classNames="item" 
+                onExiting={() => setInProp(true)}
+                timeout={3000}>
+                {current.comp} 
+      </CSSTransition>
     </Col>
   );
 }
