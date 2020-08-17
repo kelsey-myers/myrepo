@@ -22,7 +22,7 @@ export default function Contact() {
         <p className="primary larger work-sans-300 pt-2">/in/kelseymariemyers</p>
          </div>
       </a>
-      <a href="https:/twitter.com/kelseymyers_" target="_blank" alt="Link to Twitter">
+      <a href="https://twitter.com/kelseymyers_" target="_blank" alt="Link to Twitter">
         <div className="flex-center contact">
         <FontAwesomeIcon className="secondary mb-2 mr-3" icon={faTwitter} size="2x"/>
         <p className="primary larger work-sans-300 pt-2">@kelseymyers_</p>
