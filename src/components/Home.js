@@ -96,10 +96,12 @@ export default function Home() {
         <Row >
           <Col>
             <h1 className="secondary title work-sans mb-0"> My<span className="title primary work-sans-200 inline">Repo</span></h1>
+            <div className="text-center">
             <span class={active.home === true ? "dot-active" : "dot"}></span>
             <span class={active.portfolio === true ? "dot-active" : "dot"}></span>
             <span class={active.projects === true ? "dot-active" : "dot"}></span>
             <span class={active.contact === true ? "dot-active" : "dot"}></span>
+          </div>
           </Col>
         </Row>
         <Row>
