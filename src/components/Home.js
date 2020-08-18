@@ -26,22 +26,55 @@ export default function Home() {
       id: uuid(), comp: <About />
     })
   const [inProp, setInProp] = React.useState(true);
+  const [active, setActive] = React.useState({
+    home: true,
+    portfolio: false,
+    projects: false,
+    contact: false
+  });
 
 
   const handleClick = (e) => {
      if (e.target.textContent === "Home") {
         setCurrent({comp: <About/>});
         setInProp(false)
-         } else if (e.target.textContent === "Portfolio") {
+        setActive({
+          home: true,
+          portfolio: false,
+          projects: false,
+          contact: false
+        }) 
+      
+      } else if (e.target.textContent === "Portfolio") {
             setCurrent({comp: <Portfolio/>});
             setInProp(false)
-         } else if (e.target.textContent === "Projects") {
+            setActive({
+              home: false,
+              portfolio: true,
+              projects: false,
+              contact: false
+            }) 
+         
+          } else if (e.target.textContent === "Projects") {
          setCurrent({comp: <Projects/>});
          setInProp(false)
-         } else {
+         setActive({
+          home: false,
+          portfolio: false,
+          projects: true,
+          contact: false
+        }) 
+        
+        } else {
             setCurrent({comp: <Contact/>});
             setInProp(false)
-         }
+            setActive({
+              home: false,
+              portfolio: false,
+              projects: false,
+              contact: true
+            }) 
+          }
   }
     
   return (
@@ -63,7 +96,10 @@ export default function Home() {
         <Row >
           <Col>
             <h1 className="secondary title work-sans mb-0"> My<span className="title primary work-sans-200 inline">Repo</span></h1>
-            <hr className="hr-long mt-0"/>
+            <span class={active.home === true ? "dot-active" : "dot"}></span>
+            <span class={active.portfolio === true ? "dot-active" : "dot"}></span>
+            <span class={active.projects === true ? "dot-active" : "dot"}></span>
+            <span class={active.contact === true ? "dot-active" : "dot"}></span>
           </Col>
         </Row>
         <Row>

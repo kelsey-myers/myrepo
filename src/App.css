@@ -151,6 +151,24 @@ html, body {
   width: auto;
 }
 
+.dot {
+  height: 13px;
+  width: 13px;
+  margin-right: 15px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-active {
+  height: 13px;
+  width: 13px;
+  margin-right: 15px;
+  background-color: #DFDFDF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /*Portfolio Component*/
 .dropdown button {
   background: transparent;
