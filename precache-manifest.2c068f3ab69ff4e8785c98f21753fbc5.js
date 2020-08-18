@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "74d4d811246ae1205146",
-    "url": "/myrepo/static/css/main.bf18508f.chunk.css"
+    "revision": "8163dfb7d7000663dde7",
+    "url": "/myrepo/static/css/main.bfe83dcc.chunk.css"
   },
   {
-    "revision": "74d4d811246ae1205146",
-    "url": "/myrepo/static/js/main.0d0ec252.chunk.js"
+    "revision": "8163dfb7d7000663dde7",
+    "url": "/myrepo/static/js/main.a3aca7be.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "a7c14a71fd2772af51d6c203d1694c6d",
+    "revision": "11e59adb3ad075f01b38e9be2ba668d6",
     "url": "/myrepo/index.html"
   }
 ];
