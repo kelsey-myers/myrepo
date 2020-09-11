@@ -46,7 +46,7 @@ export default function Projects() {
   }
 
   return (
-    <Col className="p-5 work-sans-300 ">
+    <Col className="p-3 work-sans-300 ">
       <h1 className="primary work-sans-200"> Mini Projects </h1>
       <hr className="hr" />
       <DropdownButton title={current.name} className="dropdown mb-4">

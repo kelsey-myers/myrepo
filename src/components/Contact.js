@@ -11,7 +11,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact() {
   return (
-    <Col className="p-5" >
+    <Col className="p-3" >
       <h1 className="primary work-sans-200"> Contact </h1>
       <hr className="hr" />
       <br />
