@@ -80,15 +80,15 @@ export default function Home() {
   return (
 
     <div>
-        <Navbar fixed="top" className="black bb work-sans-300">
+        <Navbar fixed="top" className="black work-sans-300">
             <Navbar.Brand className="primary work-sans-400 mx-auto">Kelsey<p className="inline secondary">Myers</p></Navbar.Brand>
         </Navbar>
-        <Navbar className="black bb work-sans-300 fixed-top-2">   
+        <Navbar className="work-sans-300 fixed-top-2 bb black">   
         <Nav className="text-center mx-auto">
-            <Nav.Link className="primary" onClick={(e) => handleClick(e)}>Home</Nav.Link>
-            <Nav.Link className="primary" onClick={(e) => handleClick(e)}>Portfolio</Nav.Link>
-            <Nav.Link className="primary" onClick={(e) => handleClick(e)}>Projects</Nav.Link>
-            <Nav.Link className="primary" onClick={(e) => handleClick(e)}>Contact</Nav.Link>
+        <div className="dot-nav"></div><Nav.Link className="primary pl-3 pr-3" onClick={(e) => handleClick(e)}>Home</Nav.Link> <div className="dot-nav"></div>
+            <Nav.Link className="primary pl-3 pr-3" onClick={(e) => handleClick(e)}>Portfolio</Nav.Link><div className="dot-nav"></div>
+            <Nav.Link className="primary pl-3 pr-3" onClick={(e) => handleClick(e)}>Projects</Nav.Link><div className="dot-nav"></div>
+            <Nav.Link className="primary pl-3 pr-3" onClick={(e) => handleClick(e)}>Contact</Nav.Link><div className="dot-nav"></div>
         </Nav>
         </Navbar>
     
