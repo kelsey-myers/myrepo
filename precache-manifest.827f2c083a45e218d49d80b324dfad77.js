@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "65a38548c5cd12a8643e",
-    "url": "/myrepo/static/css/main.36066e97.chunk.css"
+    "revision": "a634bbddb0128a5c4b6c",
+    "url": "/myrepo/static/css/main.ea3b542f.chunk.css"
   },
   {
-    "revision": "65a38548c5cd12a8643e",
-    "url": "/myrepo/static/js/main.c8efca0e.chunk.js"
+    "revision": "a634bbddb0128a5c4b6c",
+    "url": "/myrepo/static/js/main.b4c4a74c.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
     "url": "/myrepo/static/js/runtime~main.e56f8662.js"
   },
   {
-    "revision": "6299497bcb343587ef75",
+    "revision": "4e5819868c1a081fb2be",
     "url": "/myrepo/static/css/2.1420e50c.chunk.css"
   },
   {
-    "revision": "6299497bcb343587ef75",
-    "url": "/myrepo/static/js/2.c744025e.chunk.js"
+    "revision": "4e5819868c1a081fb2be",
+    "url": "/myrepo/static/js/2.17d71264.chunk.js"
   },
   {
     "revision": "321de678e592d0b8f44f1a82d7ca4b62",
@@ -28,32 +28,24 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/WorkSans-VariableFont_wght.b2439691.ttf"
   },
   {
-    "revision": "da161ca3e4d5355283729b7862a55ad9",
-    "url": "/myrepo/static/media/KEL1.da161ca3.PNG"
+    "revision": "0e68014088180f0e3da4895adfa4be8b",
+    "url": "/myrepo/static/media/KEL1.0e680140.PNG"
   },
   {
-    "revision": "619d9c4cbe9e77ad72b34a0e682ef546",
-    "url": "/myrepo/static/media/KEL2.619d9c4c.PNG"
+    "revision": "ece550c58a8885335953d1d38db2a7e2",
+    "url": "/myrepo/static/media/KEL2.ece550c5.PNG"
   },
   {
-    "revision": "9623861b480401fd28d98240b881133e",
-    "url": "/myrepo/static/media/KEL3.9623861b.PNG"
+    "revision": "9d866b442563ec4cc9cc2fd10eca8a6e",
+    "url": "/myrepo/static/media/KEL3.9d866b44.PNG"
   },
   {
-    "revision": "0d1de66b4d44b42c9f682bda3cbae2cc",
-    "url": "/myrepo/static/media/KEL4.0d1de66b.PNG"
+    "revision": "e537db40888a1812c2f86c4027fa1fcd",
+    "url": "/myrepo/static/media/KEL4.e537db40.PNG"
   },
   {
-    "revision": "144bb3349c813f709f576cebe47d1adf",
-    "url": "/myrepo/static/media/KEL5.144bb334.PNG"
-  },
-  {
-    "revision": "278e9b638ce17f436dff1a3666077dd3",
-    "url": "/myrepo/static/media/KEL6.278e9b63.PNG"
-  },
-  {
-    "revision": "287e3b768d526004d0109fed1dc49cba",
-    "url": "/myrepo/static/media/KEL7.287e3b76.PNG"
+    "revision": "55b8ea5497bcd6e536197ed5985d60ee",
+    "url": "/myrepo/static/media/KEL5.55b8ea54.PNG"
   },
   {
     "revision": "ea8c0fac99bc6ac0a46d8a69101aecc1",
@@ -140,7 +132,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "c8ed3d6a74c3213ce3c7f0acd182c025",
+    "revision": "93f04182aa46ff63274aad3efafc1a4a",
     "url": "/myrepo/index.html"
   }
 ];
