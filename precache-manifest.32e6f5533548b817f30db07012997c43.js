@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "510b7d4cbfc08cc8fea8",
-    "url": "/myrepo/static/css/main.37c1bb94.chunk.css"
+    "revision": "65a38548c5cd12a8643e",
+    "url": "/myrepo/static/css/main.36066e97.chunk.css"
   },
   {
-    "revision": "510b7d4cbfc08cc8fea8",
-    "url": "/myrepo/static/js/main.410a9f36.chunk.js"
+    "revision": "65a38548c5cd12a8643e",
+    "url": "/myrepo/static/js/main.c8efca0e.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
     "url": "/myrepo/static/js/runtime~main.e56f8662.js"
   },
   {
-    "revision": "837ac9f8fc70036c5973",
+    "revision": "6299497bcb343587ef75",
     "url": "/myrepo/static/css/2.1420e50c.chunk.css"
   },
   {
-    "revision": "837ac9f8fc70036c5973",
-    "url": "/myrepo/static/js/2.8c59d636.chunk.js"
+    "revision": "6299497bcb343587ef75",
+    "url": "/myrepo/static/js/2.c744025e.chunk.js"
   },
   {
     "revision": "321de678e592d0b8f44f1a82d7ca4b62",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "7e410121ef935330e48182a0d680e760",
+    "revision": "c8ed3d6a74c3213ce3c7f0acd182c025",
     "url": "/myrepo/index.html"
   }
 ];
