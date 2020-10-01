@@ -2,19 +2,24 @@
 
 @font-face {
   font-family: Roboto;
-  src: url('./fonts/Roboto/Roboto-Thin.ttf');
+  src: url("./fonts/Roboto/Roboto-Thin.ttf");
 }
 
 @font-face {
   font-family: Work Sans;
-  src: url('./fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+  src: url("./fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
 }
 
 #bootstrap-overrides a {
   text-decoration: none;
   color: #808080;
+  transition: 0.2s;
 }
 
+#bootstrap-overrides a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
 
 .roboto {
   font-family: Roboto;
@@ -22,24 +27,28 @@
 
 .work-sans {
   font-family: Work Sans;
-  font-variation-settings: 'wght' 100;
+  font-variation-settings: "wght" 100;
 }
 
 .work-sans-200 {
   font-family: Work Sans;
-  font-variation-settings: 'wght' 200;
+  font-variation-settings: "wght" 200;
 }
 
 .work-sans-300 {
   font-family: Work Sans;
-  font-variation-settings: 'wght' 300;
+  font-variation-settings: "wght" 300;
 }
 
 .work-sans-400 {
   font-family: Work Sans;
-  font-variation-settings: 'wght' 400;
+  font-variation-settings: "wght" 400;
 }
 
+.work-sans-500 {
+  font-family: Work Sans;
+  font-variation-settings: "wght" 500;
+}
 .nav-mt {
   margin-top: 57px;
 }
@@ -49,9 +58,11 @@
   top: 55px;
   right: 0;
   left: 0;
-  z-index: 1030;}
+  z-index: 1030;
+}
 
-html, body {
+html,
+body {
   background-color: black;
 }
 
@@ -63,8 +74,17 @@ html, body {
   background-color: #000;
 }
 
+.options {
+  transition: 0.2s;
+}
+.options:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  transition: 0.2s;
+}
+
 .primary {
-  color: #DFDFDF !important;
+  color: #dfdfdf !important;
 }
 
 .secondary {
@@ -80,7 +100,7 @@ html, body {
   color: #fff;
 }
 
-.centering{
+.centering {
   text-align: center;
 }
 
@@ -93,9 +113,9 @@ html, body {
 }
 
 .flex-center {
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .inline {
@@ -150,7 +170,6 @@ html, body {
   transition: opacity 500ms ease-in;
 }
 
-
 /*About Component*/
 .medium {
   font-size: 1.1em;
@@ -161,7 +180,14 @@ html, body {
   height: 15vh;
   width: auto;
   border-radius: 20px;
+}
 
+.top-nav {
+  background: #000;
+}
+
+.text-black {
+  color: #000;
 }
 
 .dot {
@@ -174,7 +200,7 @@ html, body {
 .dot-nav {
   height: 5px;
   width: 5px;
-  background-color: #DFDFDF !important;
+  background-color: #dfdfdf !important;
   border-radius: 50%;
   display: inline-block;
   align-self: center;
@@ -184,14 +210,14 @@ html, body {
   height: 2px;
   width: 15px;
   margin: 7px;
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
   display: inline-block;
 }
 
 /*Portfolio Component*/
 .dropdown button {
   background: transparent;
-  color: #DFDFDF;
+  color: #dfdfdf;
   border: none;
 }
 
@@ -200,8 +226,12 @@ button:focus {
 }
 
 #bootstrap-overrides .dropdown-item {
-  color: #DFDFDF;
+  color: #dfdfdf;
   background-color: black;
+}
+
+#kelmone-vid:focus {
+  outline: none;
 }
 
 #bootstrap-overrides .dropdown-menu {
@@ -210,12 +240,12 @@ button:focus {
 
 #bootstrap-overrides .btn-primary {
   background: transparent;
-  border: none
+  border: none;
 }
 
 #bootstrap-overrides .btn-primary:focus {
-    box-shadow: 0 0 0 0.1rem #808080;
-    border-radius: 0;
+  box-shadow: 0 0 0 0.1rem #808080;
+  border-radius: 0;
 }
 
 .portfolio-margin {
@@ -223,7 +253,7 @@ button:focus {
 }
 
 .gallery-img {
-  width: 40vw;
+  width: 30vw;
   height: auto;
   border: 1px solid #808080;
 }
@@ -240,14 +270,13 @@ button:focus {
 
 /*Projects Component*/
 
-
 /*Contact Component*/
 .larger {
   font-size: 1.3em;
 }
 
-.contact { 
-  transition: all .2s ease-in-out; 
+.contact {
+  transition: all 0.2s ease-in-out;
 }
 
 .contact:hover {
@@ -258,14 +287,14 @@ button:focus {
   width: 90vw;
 }
 
-@media screen and (min-width: 576px) { 
+@media screen and (min-width: 576px) {
   .hr-long {
     width: 60vw;
     border-top: 1px solid #808080;
+  }
 }
- }
 
-@media screen and  (min-width: 768px) { 
+@media screen and (min-width: 768px) {
   .title {
     font-size: 6rem;
   }
@@ -277,21 +306,18 @@ button:focus {
   .larger {
     font-size: 1.7em;
   }
+}
 
-  
- }
-
-@media screen and (min-width: 992px) { 
+@media screen and (min-width: 992px) {
   .portfolio-padding {
     margin-top: 250px;
   }
-  
+
   .hr-long {
     width: 50vw;
     border-top: 1px solid #808080;
+  }
 }
- }
 
-@media screen and (min-width: 1200px) { 
-  
- }
+@media screen and (min-width: 1200px) {
+}

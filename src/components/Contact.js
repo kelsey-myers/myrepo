@@ -7,14 +7,13 @@ import Col from "react-bootstrap/Col";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope, faBusinessTime} from '@fortawesome/free-solid-svg-icons'
 
 export default function Contact() {
   return (
     <Col className="p-3" >
       <h1 className="primary work-sans-200"> Contact </h1>
       <hr className="hr" />
-      <br />
       <div>
       <a href="https://www.linkedin.com/in/kelseymariemyers/" target="_blank" alt="Link to LinkedIn">
         <div className="flex-center contact">
@@ -38,6 +37,12 @@ export default function Contact() {
         <div className="flex-center contact">
         <FontAwesomeIcon className="secondary mb-2 mr-3" icon={faEnvelope} size="2x"/>
         <p className="primary larger work-sans-300 pt-2">kelseymyers0@gmail.com</p>
+        </div>
+      </a>
+      <a href="http://pph.me/kelseymyers" target="_blank" alt="Link to PeoplePerHour">
+        <div className="flex-center contact">
+        <FontAwesomeIcon className="secondary mb-2 mr-3" icon={faBusinessTime} size="2x"/>
+        <p className="primary larger work-sans-300 pt-2">Hire Me Here!</p>
         </div>
       </a>
       </div>

@@ -47,7 +47,7 @@ export default function Projects() {
 
   return (
     <Col className="p-3 work-sans-300 ">
-      <h1 className="primary work-sans-200"> Mini Projects </h1>
+      <h1 className="primary work-sans-200"> Projects </h1>
       <hr className="hr" />
       <DropdownButton title={current.name} className="dropdown mb-4">
         <Dropdown.Item eventKey="1" onSelect={(eventKey) => handleSelect(eventKey)}>Tic-Tac-Toe</Dropdown.Item>

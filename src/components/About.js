@@ -24,8 +24,8 @@ export default function About() {
         contact if you'd like some work done! <br/><br/>
         Click on the headings to view my work!  <br/><br/>
         <b>Currently working on:</b> <br/>
-        1. Project Insight - A group project website aimed at students, designed to demystify STEM careers by providinig information in the form of interviews and advice pages. <br/><br/>
-        2. A social media web application - Using React, Node, Firebase, Redux and Express. Coming soon!    
+        1. <b>Project Insight</b> - A group project website aimed at students, designed to demystify STEM careers by providinig information in the form of interviews and advice pages. <br/><br/>
+        2. <b>Buzz</b> - A social media application using React, Node, Firebase, Redux and Express. Coming soon!    
       </p> 
   
     </Col>
