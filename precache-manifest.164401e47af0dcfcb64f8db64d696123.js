@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "cc8e58adeda57ce2d509",
-    "url": "/myrepo/static/css/main.5806ab84.chunk.css"
+    "revision": "412a7744741f4eec288c",
+    "url": "/myrepo/static/css/main.1ac131dd.chunk.css"
   },
   {
-    "revision": "cc8e58adeda57ce2d509",
-    "url": "/myrepo/static/js/main.a4237567.chunk.js"
+    "revision": "412a7744741f4eec288c",
+    "url": "/myrepo/static/js/main.8431671c.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
     "url": "/myrepo/static/js/runtime~main.e56f8662.js"
   },
   {
-    "revision": "91f8a87e735a816e122e",
+    "revision": "1aac49df7e4307624055",
     "url": "/myrepo/static/css/2.1420e50c.chunk.css"
   },
   {
-    "revision": "91f8a87e735a816e122e",
-    "url": "/myrepo/static/js/2.f81cfecd.chunk.js"
+    "revision": "1aac49df7e4307624055",
+    "url": "/myrepo/static/js/2.bed95afc.chunk.js"
   },
   {
     "revision": "321de678e592d0b8f44f1a82d7ca4b62",
@@ -128,6 +128,30 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/EN4.54b1e72a.png"
   },
   {
+    "revision": "4560c450042c53c3a819e3b3bc2bf8a6",
+    "url": "/myrepo/static/media/PROD1.4560c450.png"
+  },
+  {
+    "revision": "3e0916a238414b9e804663ad2931f92e",
+    "url": "/myrepo/static/media/PROD2.3e0916a2.png"
+  },
+  {
+    "revision": "f12d6b28342c92fb32b27130f1bd384f",
+    "url": "/myrepo/static/media/PROD3.f12d6b28.png"
+  },
+  {
+    "revision": "23f45313ae69a7b28ea96980fa168521",
+    "url": "/myrepo/static/media/PROD4.23f45313.png"
+  },
+  {
+    "revision": "cd870549ff1de83595340b53f07d9af1",
+    "url": "/myrepo/static/media/PROD5.cd870549.png"
+  },
+  {
+    "revision": "cac83eabd4fddb13f8aeab24696551df",
+    "url": "/myrepo/static/media/PROD6.cac83eab.png"
+  },
+  {
     "revision": "bc4352d1648c5da2956ef3c4c7f95db0",
     "url": "/myrepo/static/media/tictactoe.bc4352d1.png"
   },
@@ -152,7 +176,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "32bc14d78413c75d56d1a77734d28d2e",
+    "revision": "fbb6d439a699433e0f5dd982c9c2d6d5",
     "url": "/myrepo/index.html"
   }
 ];
