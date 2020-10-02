@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "44de2f9e92c91759b4f1",
+    "revision": "b193d1b635c826783e97",
     "url": "/myrepo/static/css/main.385ab933.chunk.css"
   },
   {
-    "revision": "44de2f9e92c91759b4f1",
-    "url": "/myrepo/static/js/main.7005a497.chunk.js"
+    "revision": "b193d1b635c826783e97",
+    "url": "/myrepo/static/js/main.7db53d5c.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
     "url": "/myrepo/static/js/runtime~main.e56f8662.js"
   },
   {
-    "revision": "ccb662f855fea7ab5fe6",
+    "revision": "71b59a9b2dd8d78cfa33",
     "url": "/myrepo/static/css/2.1420e50c.chunk.css"
   },
   {
-    "revision": "ccb662f855fea7ab5fe6",
-    "url": "/myrepo/static/js/2.aa424cf2.chunk.js"
+    "revision": "71b59a9b2dd8d78cfa33",
+    "url": "/myrepo/static/js/2.49741bdb.chunk.js"
   },
   {
     "revision": "321de678e592d0b8f44f1a82d7ca4b62",
@@ -112,6 +112,22 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/RAH8.50057c36.PNG"
   },
   {
+    "revision": "98221f97fe09832af893f73fa9d24d05",
+    "url": "/myrepo/static/media/EN1.98221f97.png"
+  },
+  {
+    "revision": "6bca2647cf2d17f5e090aa08ce8076ee",
+    "url": "/myrepo/static/media/EN2.6bca2647.png"
+  },
+  {
+    "revision": "36b593c6b034425fda88de49b414e76b",
+    "url": "/myrepo/static/media/EN3.36b593c6.png"
+  },
+  {
+    "revision": "2177c326220e8cd1fae316c3619e4cb4",
+    "url": "/myrepo/static/media/EN4.2177c326.png"
+  },
+  {
     "revision": "bc4352d1648c5da2956ef3c4c7f95db0",
     "url": "/myrepo/static/media/tictactoe.bc4352d1.png"
   },
@@ -136,7 +152,7 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
   },
   {
-    "revision": "cdf3e8edd7eceea6d611656c7ad4d7d4",
+    "revision": "4528c0879d1b705ddc6477807f408a89",
     "url": "/myrepo/index.html"
   }
 ];
