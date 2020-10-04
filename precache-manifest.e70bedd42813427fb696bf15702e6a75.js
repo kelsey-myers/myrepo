@@ -1,51 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "9f3fb3312f50b32fc65d",
-    "url": "/myrepo/static/css/main.826382a0.chunk.css"
+    "revision": "8a9c81b58cfe9b484924",
+    "url": "/myrepo/static/css/main.868f3e64.chunk.css"
   },
   {
-    "revision": "9f3fb3312f50b32fc65d",
-    "url": "/myrepo/static/js/main.d46a861a.chunk.js"
+    "revision": "8a9c81b58cfe9b484924",
+    "url": "/myrepo/static/js/main.7f39e689.chunk.js"
   },
   {
     "revision": "c836ea5fcee3b1acce74",
     "url": "/myrepo/static/js/runtime~main.e56f8662.js"
   },
   {
-    "revision": "4dc513e26b0a61e5f65b",
+    "revision": "cd3ef5ac1b77938fa08c",
     "url": "/myrepo/static/css/2.1420e50c.chunk.css"
   },
   {
-    "revision": "4dc513e26b0a61e5f65b",
-    "url": "/myrepo/static/js/2.913b7d49.chunk.js"
+    "revision": "cd3ef5ac1b77938fa08c",
+    "url": "/myrepo/static/js/2.4c3881f4.chunk.js"
   },
   {
-    "revision": "321de678e592d0b8f44f1a82d7ca4b62",
-    "url": "/myrepo/static/media/Roboto-Thin.321de678.ttf"
+    "revision": "21bb70b62317f276f2e97a919ff5bd8c",
+    "url": "/myrepo/static/media/BebasNeue-Regular.21bb70b6.ttf"
   },
   {
-    "revision": "b24396917a138794160b24ff04a71d80",
-    "url": "/myrepo/static/media/WorkSans-VariableFont_wght.b2439691.ttf"
+    "revision": "2fe27d9d10cdfccb1baef28a45d5ba90",
+    "url": "/myrepo/static/media/Lato-Light.2fe27d9d.ttf"
   },
   {
-    "revision": "435dacc35dd9d3bfab28d349d4d8523e",
-    "url": "/myrepo/static/media/KEL1.435dacc3.PNG"
-  },
-  {
-    "revision": "2d62c04e6e6c5f4617e5384a8411224e",
-    "url": "/myrepo/static/media/KEL2.2d62c04e.PNG"
-  },
-  {
-    "revision": "c647ca0f7ae11e18b51c19365844c467",
-    "url": "/myrepo/static/media/KEL3.c647ca0f.PNG"
-  },
-  {
-    "revision": "48a92e85add8c10f3a5b733128092529",
-    "url": "/myrepo/static/media/KEL4.48a92e85.PNG"
-  },
-  {
-    "revision": "1f0fd44e914dbe08094b110f552204b2",
-    "url": "/myrepo/static/media/KEL5.1f0fd44e.PNG"
+    "revision": "3b35e82dcef866dee2c73ea623497d5e",
+    "url": "/myrepo/static/media/mountains.3b35e82d.jpg"
   },
   {
     "revision": "ea8c0fac99bc6ac0a46d8a69101aecc1",
@@ -78,6 +62,34 @@ self.__precacheManifest = [
   {
     "revision": "841f1a85c96992e02ff17711cade1ffa",
     "url": "/myrepo/static/media/TT8.841f1a85.jpg"
+  },
+  {
+    "revision": "4772827ce7e8e21e5a1691823a723785",
+    "url": "/myrepo/static/media/rosegrey.4772827c.png"
+  },
+  {
+    "revision": "435dacc35dd9d3bfab28d349d4d8523e",
+    "url": "/myrepo/static/media/KEL1.435dacc3.PNG"
+  },
+  {
+    "revision": "2d62c04e6e6c5f4617e5384a8411224e",
+    "url": "/myrepo/static/media/KEL2.2d62c04e.PNG"
+  },
+  {
+    "revision": "c647ca0f7ae11e18b51c19365844c467",
+    "url": "/myrepo/static/media/KEL3.c647ca0f.PNG"
+  },
+  {
+    "revision": "48a92e85add8c10f3a5b733128092529",
+    "url": "/myrepo/static/media/KEL4.48a92e85.PNG"
+  },
+  {
+    "revision": "1f0fd44e914dbe08094b110f552204b2",
+    "url": "/myrepo/static/media/KEL5.1f0fd44e.PNG"
+  },
+  {
+    "revision": "05cf590523593d5b2432062eb46f0971",
+    "url": "/myrepo/static/media/kelmone.05cf5905.mp4"
   },
   {
     "revision": "8b51d64435f1984947709b86cd92a123",
@@ -128,6 +140,30 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/EN4.54b1e72a.png"
   },
   {
+    "revision": "7d848c30fe620321abcf7f078ea7e7f0",
+    "url": "/myrepo/static/media/CAKE1.7d848c30.png"
+  },
+  {
+    "revision": "cf240e2304009325b735a25c1d62bf0e",
+    "url": "/myrepo/static/media/CAKE2.cf240e23.png"
+  },
+  {
+    "revision": "ab62e653ee1aaf0ab85b7a4dcff0f1f2",
+    "url": "/myrepo/static/media/CAKE3.ab62e653.png"
+  },
+  {
+    "revision": "cf25740dc6bab796aa83dc7b0fa2eb27",
+    "url": "/myrepo/static/media/CAKE4.cf25740d.png"
+  },
+  {
+    "revision": "934783caa684dc43b0f467a90adac09b",
+    "url": "/myrepo/static/media/CAKE5.934783ca.png"
+  },
+  {
+    "revision": "0d421583a811a6ba4faa925b5b1d42da",
+    "url": "/myrepo/static/media/CAKE6.0d421583.png"
+  },
+  {
     "revision": "4560c450042c53c3a819e3b3bc2bf8a6",
     "url": "/myrepo/static/media/PROD1.4560c450.png"
   },
@@ -156,27 +192,15 @@ self.__precacheManifest = [
     "url": "/myrepo/static/media/tictactoe.bc4352d1.png"
   },
   {
-    "revision": "8baa14323a06389a3210556c9f13b1d3",
-    "url": "/myrepo/static/media/google.8baa1432.png"
+    "revision": "7270e99db12ab16fe99c744a6358e2a3",
+    "url": "/myrepo/static/media/google.7270e99d.png"
   },
   {
     "revision": "85f93f8c5d271815883e75492b4e8f16",
     "url": "/myrepo/static/media/todo.85f93f8c.png"
   },
   {
-    "revision": "05cf590523593d5b2432062eb46f0971",
-    "url": "/myrepo/static/media/kelmone.05cf5905.mp4"
-  },
-  {
-    "revision": "88823c2015ffd5fa89d567e17297a137",
-    "url": "/myrepo/static/media/Roboto-Light.88823c20.ttf"
-  },
-  {
-    "revision": "8cfc2acbfe6478a66a07922733137bc8",
-    "url": "/myrepo/static/media/kelsey.8cfc2acb.jpg"
-  },
-  {
-    "revision": "b8d3b8bb391842136fd44c4bcafcdc93",
+    "revision": "7dc3e2bb210829217c1f6bd21e713f6a",
     "url": "/myrepo/index.html"
   }
 ];
