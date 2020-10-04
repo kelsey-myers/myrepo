@@ -3,8 +3,10 @@ import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Col from "react-bootstrap/Col";
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+
+import Fade from "react-reveal/Fade";
 
 import Kelmone from "./Kelmone";
 import TTTrade from "./TTTrade";
@@ -13,70 +15,123 @@ import Rahmone from "./Rahmone";
 import { CSSTransition } from "react-transition-group";
 
 export default function Portfolio() {
-  const [current, setCurrent] = React.useState({
-    name: "Kelmone School of Motoring",
-    comp: <Kelmone />,
-  });
-  const [inProp, setInProp] = React.useState(true);
-
-  const handleSelect = (e) => {
-    if (e === "1") {
-      setCurrent({
-        name: "Kelmone School of Motoring",
-        comp: <Kelmone />,
-      });
-      setInProp(false);
-    } else if (e === "2") {
-      setCurrent({
-        name: "TT Trade Quotes",
-        comp: <TTTrade />,
-      });
-      setInProp(false);
-    } else if (e === "3") {
-      setCurrent({
-        name: "RahmoneTK",
-        comp: <Rahmone />,
-      });
-      setInProp(false);
-    }
-  };
-
   return (
-    <Col className="p-3 work-sans-300 ">
-      <h1 className="primary work-sans-200"> Portfolio </h1>
-      <hr className="hr" />
-      <DropdownButton title={current.name} className="dropdown mb-4">
-        <Dropdown.Item
-          eventKey="1"
-          onSelect={(eventKey) => handleSelect(eventKey)}
-        >
-          Kelmone School of Motoring
-        </Dropdown.Item>
-        <Dropdown.Item
-          eventKey="2"
-          onSelect={(eventKey) => handleSelect(eventKey)}
-        >
-          TT Trade Quotes
-        </Dropdown.Item>
-        <Dropdown.Item
-          eventKey="3"
-          onSelect={(eventKey) => handleSelect(eventKey)}
-        >
-          RahmoneTK
-        </Dropdown.Item>
-      </DropdownButton>
-      <p className="work-sans-400 primary">
-        Select a project above and click on the below images to enlarge them.
-      </p>
-      <br />
-      <CSSTransition
-        in={inProp}
-        classNames="item"
-        onExiting={() => setInProp(true)}
-        timeout={3000}
-      >
-        {current.comp}
-      </CSSTransition>
-    </Col>
+    <div>
+      <div id="portfolio">
+        <Container className="projects-div padding-fit">
+          <Fade>
+            <Row className="p-3">
+              <h1 className="secondary title">
+                Dev
+                <span className="title text-black inline ">Portfolio</span>
+              </h1>
+            </Row>
+          </Fade>
+        </Container>
+      </div>
+      <Container fluid className="align-items-center p-5 background-white">
+        <Fade bottom>
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
+              <Kelmone />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center">
+                {" "}
+                Kelmone School of Motoring{" "}
+              </h4>
+              <br />
+              <p className="lato text-center">
+                Kelmone School of Motoring is a driving school based in
+                Dartford. This is a basic single-page website with the following
+                features: <br /> <br />
+                - Responsive <br />
+                - Built with React, HTML, CSS & JavaScript <br />
+                - Contact Form with Email & Phone <br />
+                - Gallery <br />
+                - Social Media Links <br />
+                <br />
+                <a
+                  href="https://kelmoneschoolofmotoring.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
+              <TTTrade />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> TT Trade Quotes </h4>
+              <br />
+              <p className="lato text-center">
+                TT Trade Quotes is a quote-finding service which matches
+                tradesmen with clients and vice-versa, and it is based in
+                London. This is a regular package multi-page website with the
+                following features: <br /> <br />
+                - Built with HTML, CSS, JavaScript and PHP <br />
+                - Responsive <br />
+                - Registration Form <br />
+                - Quote Request Form with Image Upload <br />
+                - Contact Section with Phone <br />
+                - Gallery <br />
+                - Social Media Links <br />
+                <br />
+                <a
+                  href="https://tttradequotes.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
+              <Rahmone />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> RahmoneTK </h4>
+              <br />
+              <p className="lato text-center">
+                RahmoneTK is a Twitch streamer and Smash Bros player. He is also
+                a graphic artist and wanted a portfolio website to display his
+                works. This is a regular multi-page website with the following
+                features: <br /> <br />
+                - Built with HTML, CSS, JavaScript and PHP <br />
+                - Responsive <br />
+                - Like Button <br />
+                - Contact Section with Email & Phone <br />
+                - Multiple Galleries <br />
+                - Social Media Links <br />
+                <br />
+                <a
+                  href="https://rahmone.shop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              </p>
+            </Col>
+          </Row>
+        </Fade>
+      </Container>
+    </div>
   );
 }

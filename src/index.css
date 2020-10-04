@@ -1,8 +1,9 @@
 @font-face {
-    font-family: Roboto;
-    src: url('./fonts/Roboto/Roboto-Light.ttf');
+  font-family: Bebas;
+  src: url("./fonts/Bebas/BebasNeue-Regular.ttf");
 }
 
-html, body {
-  font-family: Roboto;
+html,
+body {
+  font-family: Bebas;
 }

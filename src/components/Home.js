@@ -1,144 +1,62 @@
 import React from "react";
-import "../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import About from "./About";
-import Portfolio from "./portfolio/Portfolio";
-import Projects from "./projects/Projects";
-import Contact from "./Contact";
+import Fade from "react-reveal/Fade";
 
-import { CSSTransition } from "react-transition-group";
-import uuid from "uuid";
+import rose from "../img/rosegrey.png";
 
 export default function Home() {
-  const [current, setCurrent] = React.useState({
-    id: uuid(),
-    comp: <About />,
-  });
-  const [inProp, setInProp] = React.useState(true);
-  const [active, setActive] = React.useState({
-    home: true,
-    portfolio: false,
-    projects: false,
-    contact: false,
-  });
-
-  const handleClick = (e) => {
-    if (e.target.textContent === "Home") {
-      setCurrent({ comp: <About /> });
-      setInProp(false);
-      setActive({
-        home: true,
-        portfolio: false,
-        projects: false,
-        contact: false,
-      });
-    } else if (e.target.textContent === "Portfolio") {
-      setCurrent({ comp: <Portfolio /> });
-      setInProp(false);
-      setActive({
-        home: false,
-        portfolio: true,
-        projects: false,
-        contact: false,
-      });
-    } else if (e.target.textContent === "Projects") {
-      setCurrent({ comp: <Projects /> });
-      setInProp(false);
-      setActive({
-        home: false,
-        portfolio: false,
-        projects: true,
-        contact: false,
-      });
-    } else {
-      setCurrent({ comp: <Contact /> });
-      setInProp(false);
-      setActive({
-        home: false,
-        portfolio: false,
-        projects: false,
-        contact: true,
-      });
-    }
-  };
-
   return (
     <div>
-      <Navbar fixed="top" className="top-nav work-sans-300">
-        <Navbar.Brand className="primary work-sans-400 mx-auto">
-          Kelsey<p className="inline secondary work-sans-500">Myers</p>
-        </Navbar.Brand>
-      </Navbar>
-      <Navbar className="work-sans-300 fixed-top-2 bb black">
-        <Nav className="text-center mx-auto">
-          <Nav.Link
-            className="primary options pl-3 pr-3"
-            onClick={(e) => handleClick(e)}
-          >
-            Home
-          </Nav.Link>{" "}
-          <div className="dot-nav"></div>
-          <Nav.Link
-            className="primary options pl-3 pr-3"
-            onClick={(e) => handleClick(e)}
-          >
-            Portfolio
-          </Nav.Link>
-          <div className="dot-nav"></div>
-          <Nav.Link
-            className="primary options pl-3 pr-3"
-            onClick={(e) => handleClick(e)}
-          >
-            Projects
-          </Nav.Link>
-          <div className="dot-nav"></div>
-          <Nav.Link
-            className="primary options pl-3 pr-3"
-            onClick={(e) => handleClick(e)}
-          >
-            Contact
-          </Nav.Link>
-        </Nav>
-      </Navbar>
+      <div className="home">
+        <Container className="centering padding-fit">
+          <Row>
+            <Col>
+              <h1 className="secondary title">
+                My
+                <span className="title text-black inline ">Repo</span>
+              </h1>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <Container id="about" className="align-items-center p-5">
+        <Fade bottom>
+          <h4 className="bebas text-center"> About </h4>
 
-      <Container className="centering padding-fit">
-        <Row>
-          <Col>
-            <h1 className="secondary title work-sans mb-0">
-              {" "}
-              My<span className="title primary work-sans-200 inline">Repo</span>
-            </h1>
-            <div className="text-center">
-              <span class={active.home === true ? "dot-active" : "dot"}></span>
-              <span
-                class={active.portfolio === true ? "dot-active" : "dot"}
-              ></span>
-              <span
-                class={active.projects === true ? "dot-active" : "dot"}
-              ></span>
-              <span
-                class={active.contact === true ? "dot-active" : "dot"}
-              ></span>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <CSSTransition
-            in={inProp}
-            classNames="item"
-            onExiting={() => setInProp(true)}
-            timeout={2000}
-          >
-            {current.comp}
-          </CSSTransition>
-        </Row>
+          <p className="text-black text-center lato">
+            Hi! I'm Kelsey, a 22 year-old developer from London. I'm a budding
+            front end software engineer who specialises in {""}
+            <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>React.js</b>, and
+            learning many more! <br />
+            <br />
+            I'm currently completing my Master's degree in Computer Science and
+            in the meantime, I enjoy creating websites for clients and working
+            on my own personal projects. Feel free to browse what I've created
+            and get in contact if you'd like some work done! <br />
+          </p>
+        </Fade>
+      </Container>
+      <Container fluid id="about-2" className="align-items-center p-5">
+        <Container>
+          <Fade bottom>
+            <h4 className="bebas mb-3"> Currently working on: </h4>
+            <img src={rose} id="rose-grey" className="mb-3" />
+            <h5 className="bebas">Project Insight</h5>
+            <p className="lato">
+              A group project website aimed at students, designed to demystify
+              STEM careers by providinig information in the form of interviews
+              and advice pages.
+            </p>
+            <h5 className="bebas">Buzz</h5>
+            <p className="lato">
+              A social media application using React, Node, Firebase, Redux and
+              Express. Coming soon!
+            </p>
+          </Fade>
+        </Container>
       </Container>
     </div>
   );
