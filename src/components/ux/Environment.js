@@ -1,14 +1,13 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 
 /* Importing Gallery Images */
-import img1 from "../../img/environment/EN1.png";
-import img2 from "../../img/environment/EN2.png";
-import img3 from "../../img/environment/EN3.png";
-import img4 from "../../img/environment/EN4.png";
-
-import Carousel from "react-bootstrap/Carousel";
+const img1 = "https://ik.imagekit.io/kelseymyers0/UX/EN1_wAv-R8sAN.png";
+const img2 = "https://ik.imagekit.io/kelseymyers0/UX/EN2_QiwqSgHTp38x.png";
+const img3 = "https://ik.imagekit.io/kelseymyers0/UX/EN3_zW03vbabO3b.png";
+const img4 = "https://ik.imagekit.io/kelseymyers0/UX/EN4_1WfmXJgTI.png";
 
 export default function Environment() {
   return (

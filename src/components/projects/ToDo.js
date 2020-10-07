@@ -3,10 +3,7 @@ import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 /* Importing Gallery Images */
-import img1 from "../../img/proj/todo.png";
-
-import Carousel from "react-bootstrap/Carousel";
-import ModalImage from "react-modal-image";
+const img1 = "https://ik.imagekit.io/kelseymyers0/Projects/todo_o8E6hrxxfp.png";
 
 export default function TicTacToe() {
   return (

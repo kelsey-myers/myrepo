@@ -1,19 +1,17 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 
 /* Importing Gallery Images */
-import img1 from "../../img/rahmone/RAH1.PNG";
-import img2 from "../../img/rahmone/RAH2.PNG";
-import img3 from "../../img/rahmone/RAH3.PNG";
-import img4 from "../../img/rahmone/RAH4.PNG";
-import img5 from "../../img/rahmone/RAH5.PNG";
-import img6 from "../../img/rahmone/RAH6.PNG";
-import img7 from "../../img/rahmone/RAH7.PNG";
-import img8 from "../../img/rahmone/RAH8.PNG";
-
-import Carousel from "react-bootstrap/Carousel";
-import ModalImage from "react-modal-image";
+const img1 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH1_zwPwSqtOpv1.PNG";
+const img2 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH2_wHINjG8-cq8.PNG";
+const img3 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH3_pXo7HMCRr.PNG";
+const img4 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH6_Otw5oa_BqZX.PNG";
+const img5 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH7_H0gv-_IeVx.PNG";
+const img6 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH8_VIheTpsMU.PNG";
+const img7 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH4_XcV3UiqZo.PNG";
+const img8 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH5_3TXFf6FXq6X.PNG";
 
 export default function TTTrade() {
   return (

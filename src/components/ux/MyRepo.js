@@ -1,22 +1,19 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import Carousel from "react-bootstrap/Carousel";
 
 /* Importing Gallery Images */
-const img1 = "https://ik.imagekit.io/kelseymyers0/Dev/TT1_K2W_wm3A9XF.PNG";
-const img2 = "https://ik.imagekit.io/kelseymyers0/Dev/TT2_nKr61NMjo.PNG";
-const img3 = "https://ik.imagekit.io/kelseymyers0/Dev/TT3_mGhAPjlc_d.PNG";
-const img4 = "https://ik.imagekit.io/kelseymyers0/Dev/TT4_RBpuqCi-MGs.PNG";
-const img5 = "https://ik.imagekit.io/kelseymyers0/Dev/TT5_rMVUkqmg7.PNG";
-const img6 = "https://ik.imagekit.io/kelseymyers0/Dev/TT6_QaMFQIgj77.PNG";
-const img7 = "https://ik.imagekit.io/kelseymyers0/Dev/TT7_wqN1HC96xNT.PNG";
-const img8 = "https://ik.imagekit.io/kelseymyers0/Dev/TT8_m_NuXcZT__o9.jpg";
+const img1 = "https://ik.imagekit.io/kelseymyers0/UX/MY1_hVg2Ud_S03Kv.png";
+const img2 = "https://ik.imagekit.io/kelseymyers0/UX/MY2_ohxnZnLeGhu.png";
+const img3 = "https://ik.imagekit.io/kelseymyers0/UX/MY3_JoXzORy-n.png";
+const img4 = "https://ik.imagekit.io/kelseymyers0/UX/MY4_O-YAY6630Z.png";
+const img5 = "https://ik.imagekit.io/kelseymyers0/UX/MY5_pMCa4O_4jOP.png";
+const img6 = "https://ik.imagekit.io/kelseymyers0/UX/MY6_zEdEQDoSl.png";
 
-export default function TTTrade() {
+export default function MyRepo() {
   return (
-    <div>
+    <div id="myrepo">
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
           <img className="gallery-img" src={img1} />
@@ -35,12 +32,6 @@ export default function TTTrade() {
         </Carousel.Item>
         <Carousel.Item>
           <img className="gallery-img" src={img6} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="gallery-img" src={img7} />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="gallery-img" src={img8} />
         </Carousel.Item>
       </Carousel>
     </div>

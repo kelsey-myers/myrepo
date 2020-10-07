@@ -1,16 +1,15 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 
 /* Importing Gallery Images */
-import img1 from "../../img/product/PROD1.png";
-import img2 from "../../img/product/PROD2.png";
-import img3 from "../../img/product/PROD3.png";
-import img4 from "../../img/product/PROD4.png";
-import img5 from "../../img/product/PROD5.png";
-import img6 from "../../img/product/PROD6.png";
-
-import Carousel from "react-bootstrap/Carousel";
+const img1 = "https://ik.imagekit.io/kelseymyers0/UX/PROD1_shQLyblHx.png";
+const img2 = "https://ik.imagekit.io/kelseymyers0/UX/PROD2_NtL8opGNYX7J.png";
+const img3 = "https://ik.imagekit.io/kelseymyers0/UX/PROD3_bK3FPXLf4a1j.png";
+const img4 = "https://ik.imagekit.io/kelseymyers0/UX/PROD4_oo09bjZk4w5.png";
+const img5 = "https://ik.imagekit.io/kelseymyers0/UX/PROD5_mhbf6YtBb.png";
+const img6 = "https://ik.imagekit.io/kelseymyers0/UX/PROD6_bbWIBPcVS1.png";
 
 export default function Beats() {
   return (

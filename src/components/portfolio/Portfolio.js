@@ -11,6 +11,7 @@ import Fade from "react-reveal/Fade";
 import Kelmone from "./Kelmone";
 import TTTrade from "./TTTrade";
 import Rahmone from "./Rahmone";
+import MyRepo from "../ux/MyRepo";
 
 import { CSSTransition } from "react-transition-group";
 
@@ -31,6 +32,32 @@ export default function Portfolio() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
+              <MyRepo />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> MyRepo </h4>
+              <br />
+              <p className="lato text-center">
+                My personal website! This is a basic multi-page website with the
+                following features: <br /> <br />
+                - Responsive <br />
+                - Built with React, HTML, CSS & JavaScript <br />
+                - Gallery <br />
+                - Social Media Links <br />
+                <br />
+                <a
+                  href="https://kelseymyers.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Website
+                </a>
+              </p>
+            </Col>
+          </Row>
+
           <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
             <Col
               xs={{ order: "last" }}

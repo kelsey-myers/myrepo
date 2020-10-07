@@ -1,16 +1,15 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 
 /* Importing Gallery Images */
-import img1 from "../../img/patisserie/CAKE1.png";
-import img2 from "../../img/patisserie/CAKE2.png";
-import img3 from "../../img/patisserie/CAKE3.png";
-import img4 from "../../img/patisserie/CAKE4.png";
-import img5 from "../../img/patisserie/CAKE5.png";
-import img6 from "../../img/patisserie/CAKE6.png";
-
-import Carousel from "react-bootstrap/Carousel";
+const img1 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE1_oPlTK4AJM.png";
+const img2 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE2_rd2aSpg0xZl.png";
+const img3 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE3_nlKpDvmQJJh.png";
+const img4 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE4_uKs4oX6AC.png";
+const img5 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE5_q6MfSZzzGTb2.png";
+const img6 = "https://ik.imagekit.io/kelseymyers0/UX/CAKE6_sRZACqPTW.png";
 
 export default function Patisserie() {
   return (

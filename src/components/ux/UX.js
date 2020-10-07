@@ -10,6 +10,8 @@ import Fade from "react-reveal";
 import Environment from "./Environment";
 import Patisserie from "./Patisserie";
 import Beats from "./Beats";
+import MyRepo from "./MyRepo";
+import HundredDays from "./100Days";
 
 import { CSSTransition } from "react-transition-group";
 
@@ -30,6 +32,38 @@ export default function Portfolio() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
+              <HundredDays />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> 100 Days of Design </h4>
+              <br />
+              <p className="lato text-center">
+                I decided to develop my UX skills my taking part in the 100 Days
+                of Design Challenge.
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
+              <MyRepo />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> MyRepo </h4>
+              <br />
+              <p className="lato text-center">
+                Oh hey it's my own website! This is a portfolio design which can
+                easily be customised to anyone's personal taste.
+              </p>
+            </Col>
+          </Row>
+
           <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
             <Col xs={{ order: "last" }} className="text-center">
               <Patisserie />
