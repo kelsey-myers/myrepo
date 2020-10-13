@@ -489,4 +489,8 @@ button:focus {
   #rose-grey {
     width: 25%;
   }
+
+  .port-desc {
+    width: 70%;
+  }
 }
