@@ -5,6 +5,7 @@ import UX from "./components/ux/UX";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import NotFound from "./components/NotFound";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -29,6 +30,7 @@ export default class App extends React.Component {
           <Route path="/contact">
             <Contact />
           </Route>
+          <Route component={NotFound} />
         </Switch>
       </div>
     );

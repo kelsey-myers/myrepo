@@ -19,28 +19,28 @@ export default function TTTrade() {
     <div>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img" src={img1} />
+          <img className="gallery-img" src={img1} alt="TT Trade Quotes 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img2} />
+          <img className="gallery-img" src={img2} alt="TT Trade Quotes 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img3} />
+          <img className="gallery-img" src={img3} alt="TT Trade Quotes 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img4} />
+          <img className="gallery-img" src={img4} alt="TT Trade Quotes 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img5} />
+          <img className="gallery-img" src={img5} alt="TT Trade Quotes 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img6} />
+          <img className="gallery-img" src={img6} alt="TT Trade Quotes 6" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img7} />
+          <img className="gallery-img" src={img7} alt="TT Trade Quotes 7" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img8} />
+          <img className="gallery-img" src={img8} alt="TT Trade Quotes 8" />
         </Carousel.Item>
       </Carousel>
     </div>

@@ -38,20 +38,7 @@ export default function Contact() {
                     <p className="larger pt-2">/in/kelseymariemyers</p>
                   </div>
                 </a>
-                <a
-                  href="https://twitter.com/kelseymyers_"
-                  target="_blank"
-                  alt="Link to Twitter"
-                >
-                  <div className="flex-center contact">
-                    <FontAwesomeIcon
-                      className="secondary mb-2 mr-3"
-                      icon={faTwitter}
-                      size="2x"
-                    />
-                    <p className="larger pt-2">@kelseymyers_</p>
-                  </div>
-                </a>
+
                 <a
                   href="https://github.com/kelsey-myers"
                   target="_blank"
@@ -78,20 +65,6 @@ export default function Contact() {
                       size="2x"
                     />
                     <p className="larger pt-2">kelseymyers0@gmail.com</p>
-                  </div>
-                </a>
-                <a
-                  href="http://pph.me/kelseymyers"
-                  target="_blank"
-                  alt="Link to PeoplePerHour"
-                >
-                  <div className="flex-center contact">
-                    <FontAwesomeIcon
-                      className="secondary mb-2 mr-3"
-                      icon={faBusinessTime}
-                      size="2x"
-                    />
-                    <p className="larger pt-2">Hire Me Here!</p>
                   </div>
                 </a>
               </div>

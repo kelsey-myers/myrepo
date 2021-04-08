@@ -43,7 +43,7 @@ export default function Home() {
         <Container>
           <Fade bottom>
             <h4 className="bebas mb-3"> Currently working on: </h4>
-            <img src={rose} id="rose-grey" className="mb-3" />
+            <img src={rose} id="rose-grey" className="mb-3" alt="rose" />
             <h5 className="bebas">Project Insight</h5>
             <p className="lato">
               A group project website aimed at students, designed to demystify

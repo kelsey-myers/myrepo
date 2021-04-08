@@ -11,9 +11,8 @@ import Environment from "./Environment";
 import Patisserie from "./Patisserie";
 import Beats from "./Beats";
 import MyRepo from "./MyRepo";
+import TTTradeV2 from "../portfolio/TTTradeV2";
 import HundredDays from "./100Days";
-
-import { CSSTransition } from "react-transition-group";
 
 export default function Portfolio() {
   return (
@@ -33,7 +32,11 @@ export default function Portfolio() {
       <Container fluid className="align-items-center p-5 background-white ">
         <Fade bottom>
           <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
-            <Col xs={{ order: "last" }} className="text-center">
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
               <HundredDays />
             </Col>
             <Col>
@@ -43,6 +46,28 @@ export default function Portfolio() {
                 I decided to develop my UX skills my taking part in the 100 Days
                 of Design Challenge. Click on each image to enlarge it in a new
                 tab.
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
+              <TTTradeV2 />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> TT Trade Quotes </h4>
+              <br />
+              <p className="lato text-center port-desc ml-auto mr-auto mb-0">
+                A simple modern design for a quote-finding company, TT Trade
+                Quotes. You can view the website{" "}
+                <a
+                  href="https://tttradequotes.co.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  here
+                </a>
+                .
               </p>
             </Col>
           </Row>

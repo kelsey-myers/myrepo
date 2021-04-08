@@ -13,33 +13,33 @@ const img6 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH8_VIheTpsMU.PNG";
 const img7 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH4_XcV3UiqZo.PNG";
 const img8 = "https://ik.imagekit.io/kelseymyers0/Dev/RAH5_3TXFf6FXq6X.PNG";
 
-export default function TTTrade() {
+export default function Rahmone() {
   return (
     <div>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img" src={img1} />
+          <img className="gallery-img" src={img1} alt="RahmoneTK 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img2} />
+          <img className="gallery-img" src={img2} alt="RahmoneTK 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img3} />
+          <img className="gallery-img" src={img3} alt="RahmoneTK 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img4} />
+          <img className="gallery-img" src={img4} alt="RahmoneTK 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img5} />
+          <img className="gallery-img" src={img5} alt="RahmoneTK 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img6} />
+          <img className="gallery-img" src={img6} alt="RahmoneTK 6" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img7} />
+          <img className="gallery-img" src={img7} alt="RahmoneTK 7" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img8} />
+          <img className="gallery-img" src={img8} alt="RahmoneTK 8" />
         </Carousel.Item>
       </Carousel>
     </div>
