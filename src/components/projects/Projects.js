@@ -11,6 +11,7 @@ import Fade from "react-reveal/Fade";
 import TicTacToe from "./TicTacToe";
 import Google from "./Google";
 import ToDo from "./ToDo";
+import Hive from "./Hive";
 
 export default function Projects() {
   return (
@@ -29,12 +30,36 @@ export default function Projects() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
-          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
             <Col
               xs={{ order: "last" }}
               sm={{ order: "first" }}
               className="text-center"
             >
+              <Hive />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> Hive </h4>
+              <br />
+              <p className="lato text-center">
+                A social media site using ReactJS, JavaScript, Node, MongoDB,
+                and Express. The back-end was deployed with Heroku and the
+                front-end with Netlify.
+                <br />
+                <br />
+                <a
+                  href="https://hive-km.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
               <TicTacToe />
             </Col>
             <Col>
@@ -57,7 +82,11 @@ export default function Projects() {
           </Row>
 
           <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
-            <Col xs={{ order: "last" }} className="text-center">
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
               <Google />
             </Col>
             <Col>
@@ -79,11 +108,7 @@ export default function Projects() {
           </Row>
 
           <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
-            <Col
-              xs={{ order: "last" }}
-              sm={{ order: "first" }}
-              className="text-center"
-            >
+            <Col xs={{ order: "last" }} className="text-center">
               <ToDo />
             </Col>
             <Col>
