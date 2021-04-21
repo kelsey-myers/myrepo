@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "96b63b7723d26f0b59ab",
+    "revision": "5b082ba2153e29eb803e",
     "url": "/static/css/main.e02b83fa.chunk.css"
   },
   {
-    "revision": "96b63b7723d26f0b59ab",
-    "url": "/static/js/main.8a077ac0.chunk.js"
+    "revision": "5b082ba2153e29eb803e",
+    "url": "/static/js/main.942af602.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "c1c85f4c6f1240daabdc",
+    "revision": "dd2f5622ef9a37b95c32",
     "url": "/static/css/2.53d1c398.chunk.css"
   },
   {
-    "revision": "c1c85f4c6f1240daabdc",
-    "url": "/static/js/2.9da5085e.chunk.js"
+    "revision": "dd2f5622ef9a37b95c32",
+    "url": "/static/js/2.ed655a86.chunk.js"
   },
   {
     "revision": "21bb70b62317f276f2e97a919ff5bd8c",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/rosegrey.4772827c.png"
   },
   {
-    "revision": "b82f5e2102bfbcf3cfe4a05e62d8dd25",
+    "revision": "dcbb79fc425303e70fae0ebc51b6b5c1",
     "url": "/index.html"
   }
 ];
