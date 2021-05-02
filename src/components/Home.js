@@ -27,8 +27,8 @@ export default function Home() {
           <h4 className="bebas text-center"> About </h4>
 
           <p className="text-black text-center lato">
-            Hi! I'm Kelsey, a 22 year-old developer from London, and a Software
-            Engineer who specialises in {""}
+            Hi! I'm Kelsey, a 22 year-old software engineer from London who
+            specialises in {""}
             <b>JavaScript</b>, <b>React</b>, <b>Node</b> and learning many more!{" "}
             <br />
             <br />
@@ -47,7 +47,7 @@ export default function Home() {
             <h5 className="bebas">Project Insight</h5>
             <p className="lato">
               A group project website aimed at students, designed to demystify
-              STEM careers by providinig information in the form of interviews
+              STEM careers by providing information in the form of interviews
               and advice pages.
             </p>
           </Fade>
