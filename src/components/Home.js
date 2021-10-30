@@ -27,15 +27,15 @@ export default function Home() {
           <h4 className="bebas text-center"> About </h4>
 
           <p className="text-black text-center lato">
-            Hi! I'm Kelsey, a 22 year-old software engineer from London who
-            specialises in {""}
+            Hi! I'm Kelsey, a 23 year-old software engineer from London who
+            specialises in {""} front-end engineering and UX, specifically using{" "}
             <b>JavaScript</b>, <b>React</b>, <b>Node</b> and learning many more!{" "}
             <br />
             <br />
             I'm currently completing my Master's degree in Computer Science and
-            in the meantime, I enjoy creating websites for clients and working
-            on my own personal projects. Feel free to browse what I've created
-            and get in contact if you'd like some work done! <br />
+            in the meantime, I enjoy designing and creating websites for clients
+            and working on my own personal projects. Feel free to browse what
+            I've created and get in contact if you'd like some work done! <br />
           </p>
         </Fade>
       </Container>
@@ -44,11 +44,9 @@ export default function Home() {
           <Fade bottom>
             <h4 className="bebas mb-3"> Currently working on: </h4>
             <img src={rose} id="rose-grey" className="mb-3" alt="rose" />
-            <h5 className="bebas">Project Insight</h5>
+            <h5 className="bebas">Shapely Decor</h5>
             <p className="lato">
-              A group project website aimed at students, designed to demystify
-              STEM careers by providing information in the form of interviews
-              and advice pages.
+              An e-commerce website for a client specialising in home decor.
             </p>
           </Fade>
         </Container>
