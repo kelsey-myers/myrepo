@@ -7,12 +7,8 @@ import Row from "react-bootstrap/Row";
 import Fade from "react-reveal/Fade";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faTwitter,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faBusinessTime } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Container } from "react-bootstrap";
 
 export default function Contact() {

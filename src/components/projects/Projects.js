@@ -12,6 +12,7 @@ import TicTacToe from "./TicTacToe";
 import Google from "./Google";
 import ToDo from "./ToDo";
 import Hive from "./Hive";
+import Tesla from "./Tesla";
 
 export default function Projects() {
   return (
@@ -30,6 +31,28 @@ export default function Projects() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
+          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
+            <Col xs={{ order: "last" }} className="text-center">
+              <Tesla />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center"> Tesla App </h4>
+              <br />
+              <p className="lato text-center">
+                My first React Native project. A replica of the Tesla homepage
+                built for IOS.
+                <br />
+                <br />
+                <a
+                  href="https://github.com/kelsey-myers/tesla-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
+              </p>
+            </Col>
+          </Row>
           <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
             <Col
               xs={{ order: "last" }}

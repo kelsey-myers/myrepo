@@ -307,6 +307,7 @@ button:focus {
 .gallery-img-portrait {
   width: auto;
   height: 55vh;
+  border: 2px solid #f0f0f0;
 }
 
 #bootstrap-overrides .carousel-indicators li {
