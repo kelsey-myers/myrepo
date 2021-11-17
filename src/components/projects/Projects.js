@@ -13,6 +13,7 @@ import Google from "./Google";
 import ToDo from "./ToDo";
 import Hive from "./Hive";
 import Tesla from "./Tesla";
+import Taskade from "./Taskade";
 
 export default function Projects() {
   return (
@@ -31,6 +32,37 @@ export default function Projects() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
+          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
+            <Col
+              xs={{ order: "last" }}
+              sm={{ order: "first" }}
+              className="text-center"
+            >
+              <Taskade />
+            </Col>
+            <Col>
+              <h4 className="bebas text-center">
+                {" "}
+                ToDo List (Revamped - WIP){" "}
+              </h4>
+              <br />
+              <p className="lato text-center">
+                A collaborative ToDo app built using full-stack technologies.
+                The backend used a GraphQL API using an Apollo server, NodeJS,
+                and MongoDB. The front-end used React Native. This is a revamp
+                of the original ToDo list created a while back (scroll down!).
+                <br />
+                <br />
+                <a
+                  href="https://github.com/kelsey-myers/taskade-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
+              </p>
+            </Col>
+          </Row>
           <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
             <Col xs={{ order: "last" }} className="text-center">
               <Tesla />

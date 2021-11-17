@@ -300,14 +300,14 @@ button:focus {
 
 .gallery-img {
   width: 100%;
-  border: 2px solid #f0f0f0;
   height: auto;
+  box-shadow: 0px 0px 5px rgb(84, 87, 90);
 }
 
 .gallery-img-portrait {
   width: auto;
   height: 55vh;
-  border: 2px solid #f0f0f0;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
 }
 
 #bootstrap-overrides .carousel-indicators li {

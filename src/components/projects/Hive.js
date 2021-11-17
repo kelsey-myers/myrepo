@@ -13,10 +13,10 @@ export default function Hive() {
   return (
     <div id="hive">
       <Carousel indicators={false} interval={null}>
-        <Carousel.Item>
-          <img className="gallery-img w-100" src={img1} alt="Hive - Desktop" />
+        <Carousel.Item className="mb-2">
+          <img className="gallery-img" src={img1} alt="Hive - Desktop" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="mb-2">
           <img
             className="gallery-img-portrait"
             src={img2}
