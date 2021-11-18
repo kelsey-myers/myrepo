@@ -30,11 +30,11 @@
         "linkDescription": "Visit Project",
         "image" : true,
         "imageDetails" : [{
-            "link":"https://ik.imagekit.io/kelseymyers0/Projects/hive_1_ByddwkFfs.png",
+            "link":"/Projects/hive_1_ByddwkFfs.png",
            "orientation": "landscape"
            },
         {
-            "link": "https://ik.imagekit.io/kelseymyers0/Projects/hive_2_Z1XfgXyxic.png",
+            "link": "/Projects/hive_2_Z1XfgXyxic.png",
             "orientation": "portrait"
         }],
         "videoLink" : ""
@@ -46,7 +46,7 @@
         "linkDescription": "Visit Project",
         "image" : true,
         "imageDetails" : [{
-            "link" : "https://ik.imagekit.io/kelseymyers0/Projects/tictactoe_sWgy5AF7ZE0.png",
+            "link" : "/Projects/tictactoe_sWgy5AF7ZE0.png",
             "orientation": "landscape"
         }],
         "videoLink" : ""
@@ -58,7 +58,7 @@
         "linkDescription": "Visit Project",
         "image" : true,
         "imageDetails" : [{
-            "link" : "https://ik.imagekit.io/kelseymyers0/Projects/google_LYm6rw1xV.png",
+            "link" : "/Projects/google_LYm6rw1xV.png",
             "orientation": "landscape"
         }],
         "videoLink" : ""
@@ -70,7 +70,7 @@
         "linkDescription": "Visit Project",
         "image" : true,
         "imageDetails" : [{
-            "link" : "https://ik.imagekit.io/kelseymyers0/Projects/todo_o8E6hrxxfp.png",
+            "link" : "/kelseymyers0/Projects/todo_o8E6hrxxfp.png",
             "orientation": "portrait"
         }],
         "videoLink" : ""
