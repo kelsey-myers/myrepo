@@ -8,13 +8,42 @@ import Row from "react-bootstrap/Row";
 
 import Fade from "react-reveal/Fade";
 
-import Kelmone from "./Kelmone";
-import TTTrade from "./TTTrade";
-import Rahmone from "./Rahmone";
-import MyRepo from "../ux/MyRepo";
-import TTTradeV2 from "./TTTradeV2";
+import { Carousel } from "react-bootstrap";
+import PortfolioDocs from "./Portfolio.json";
 
 export default function Portfolio() {
+  const getImages = (project) => {
+    if (project.imageDetails.length > 1) {
+      return (
+        <Carousel indicators={false} interval={null}>
+          {project.imageDetails.map((image, index) => {
+            return (
+              <Carousel.Item className="mb-2">
+                <img
+                  className={"gallery-img-ux"}
+                  src={image.link}
+                  alt={image.alt}
+                />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+      );
+    } else {
+      return (
+        <img
+          src={project.imageDetails[0].link}
+          className={
+            project.imageDetails[0].orientation === "landscape"
+              ? "gallery-img-ux w-100"
+              : "gallery-img-portrait-ux"
+          }
+          alt={project.imageDetails[0].alt}
+        />
+      );
+    }
+  };
+
   return (
     <div>
       <div id="portfolio">
@@ -31,169 +60,42 @@ export default function Portfolio() {
       </div>
       <Container fluid className="align-items-center p-5 background-white">
         <Fade bottom>
-          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
-            <Col
-              xs={{ order: "last" }}
-              sm={{ order: "first" }}
-              className="text-center"
-            >
-              <TTTradeV2 />
-            </Col>
-            <Col>
-              <h4 className="bebas text-center">
-                {" "}
-                TT Trade Quotes - Revamped{" "}
-              </h4>
-              <br />
-              <p className="lato text-center">
-                A revamped website for TT Trade Quotes. I decided to give the
-                website a more modern feel while keeping to the same colour
-                scheme as before. This website has the following features.
-                features: <br /> <br />
-                - Built with React, HTML, CSS & JavaScript <br />
-                - Responsive <br />
-                - Registration Form <br />
-                - Quote Request Form with Image Uploads <br />
-                - Contact Section with Phone <br />
-                - Gallery <br />
-                - Social Media Links <br />
-                <br />
-                <a
-                  href="https://tttradequotes.co.uk"
-                  target="_blank"
-                  rel="noopener noreferrer"
+          {PortfolioDocs.map((project, index) => {
+            return (
+              <Row
+                key={index}
+                className="project-div-1 mb-5 align-items-center"
+                xs={1}
+                sm={2}
+              >
+                <Col
+                  xs={{ order: "last" }}
+                  sm={{ order: index % 2 === 0 ? "last" : "first" }}
+                  className="text-center"
                 >
-                  Visit Website
-                </a>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
-            <Col xs={{ order: "last" }} className="text-center">
-              <MyRepo />
-            </Col>
-            <Col>
-              <h4 className="bebas text-center"> MyRepo </h4>
-              <br />
-              <p className="lato text-center">
-                My personal website! This is a basic multi-page website with the
-                following features: <br /> <br />
-                - Responsive <br />
-                - Built with React, HTML, CSS & JavaScript <br />
-                - Gallery <br />
-                - Social Media Links <br />
-                <br />
-                <a
-                  href="https://kelseymyers.co.uk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="project-div-1 mb-5 align-items-center" xs={1} sm={2}>
-            <Col
-              xs={{ order: "last" }}
-              sm={{ order: "first" }}
-              className="text-center"
-            >
-              <Kelmone />
-            </Col>
-            <Col>
-              <h4 className="bebas text-center">
-                {" "}
-                Kelmone School of Motoring{" "}
-              </h4>
-              <br />
-              <p className="lato text-center">
-                Kelmone School of Motoring is a driving school based in
-                Dartford. This is a basic single-page website with the following
-                features: <br /> <br />
-                - Responsive <br />
-                - Built with React, HTML, CSS & JavaScript <br />
-                - Contact Form with Email & Phone <br />
-                - Gallery <br />
-                - Social Media Links <br />
-                <br />
-                <a
-                  href="https://kelmoneschoolofmotoring.co.uk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
-            <Col xs={{ order: "last" }} className="text-center">
-              <TTTrade />
-            </Col>
-            <Col>
-              <h4 className="bebas text-center"> TT Trade Quotes </h4>
-              <br />
-              <p className="lato text-center">
-                TT Trade Quotes is a quote-finding service which matches
-                tradesmen with clients and vice-versa, and it is based in
-                London. This is a regular package multi-page website with the
-                following features: <br /> <br />
-                - Built with HTML, CSS, JavaScript and PHP <br />
-                - Responsive <br />
-                - Registration Form <br />
-                - Quote Request Form with Image Upload <br />
-                - Contact Section with Phone <br />
-                - Gallery <br />
-                - Social Media Links <br />
-                <br />
-                <a
-                  href="https://tttradequotes.co.uk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a>
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="project-div-2 mb-5 align-items-center" xs={1} sm={2}>
-            <Col
-              xs={{ order: "last" }}
-              sm={{ order: "first" }}
-              className="text-center"
-            >
-              <Rahmone />
-            </Col>
-            <Col>
-              <h4 className="bebas text-center"> RahmoneTK </h4>
-              <br />
-              <p className="lato text-center">
-                RahmoneTK is a Twitch streamer and Smash Bros player. He is also
-                a graphic artist and wanted a portfolio website to display his
-                works. This is a regular multi-page website with the following
-                features: <br /> <br />
-                - Built with HTML, CSS, JavaScript and PHP <br />
-                - Responsive <br />
-                - Like Button <br />
-                - Contact Section with Email & Phone <br />
-                - Multiple Galleries <br />
-                - Social Media Links <br />
-                <br />
-                <a
-                  href="https://rahmone.shop"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Website
-                </a>
-              </p>
-            </Col>
-          </Row>
+                  {getImages(project)}
+                </Col>
+                <Col>
+                  <h4 className="bebas text-center">{project.name}</h4>
+                  <br />
+                  <p
+                    dangerouslySetInnerHTML={{ __html: project.description }}
+                    className="lato text-center"
+                  ></p>
+                  <p className="lato text-center">
+                    <br />
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.linkDescription}
+                    </a>
+                  </p>
+                </Col>
+              </Row>
+            );
+          })}
         </Fade>
       </Container>
     </div>

@@ -25,7 +25,7 @@ export default function Portfolio() {
                       : "gallery-img-ux"
                   }
                   src={image.link}
-                  alt={project.name + " screenshot " + index}
+                  alt={image.alt}
                 />
               </Carousel.Item>
             );
