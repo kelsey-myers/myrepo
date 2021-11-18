@@ -18,28 +18,28 @@ export default function Rahmone() {
     <div>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img" src={img1} alt="RahmoneTK 1" />
+          <img className="gallery-img-ux" src={img1} alt="RahmoneTK 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img2} alt="RahmoneTK 2" />
+          <img className="gallery-img-ux" src={img2} alt="RahmoneTK 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img3} alt="RahmoneTK 3" />
+          <img className="gallery-img-ux" src={img3} alt="RahmoneTK 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img4} alt="RahmoneTK 4" />
+          <img className="gallery-img-ux" src={img4} alt="RahmoneTK 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img5} alt="RahmoneTK 5" />
+          <img className="gallery-img-ux" src={img5} alt="RahmoneTK 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img6} alt="RahmoneTK 6" />
+          <img className="gallery-img-ux" src={img6} alt="RahmoneTK 6" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img7} alt="RahmoneTK 7" />
+          <img className="gallery-img-ux" src={img7} alt="RahmoneTK 7" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img8} alt="RahmoneTK 8" />
+          <img className="gallery-img-ux" src={img8} alt="RahmoneTK 8" />
         </Carousel.Item>
       </Carousel>
     </div>

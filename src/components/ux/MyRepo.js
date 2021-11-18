@@ -16,22 +16,22 @@ export default function MyRepo() {
     <div id="myrepo">
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img" src={img1} alt="MyRepo 1" />
+          <img className="gallery-img-ux" src={img1} alt="MyRepo 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img2} alt="MyRepo 2" />
+          <img className="gallery-img-ux" src={img2} alt="MyRepo 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img3} alt="MyRepo 3" />
+          <img className="gallery-img-ux" src={img3} alt="MyRepo 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img4} alt="MyRepo 4" />
+          <img className="gallery-img-ux" src={img4} alt="MyRepo 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img5} alt="MyRepo 5" />
+          <img className="gallery-img-ux" src={img5} alt="MyRepo 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img6} alt="MyRepo 6" />
+          <img className="gallery-img-ux" src={img6} alt="MyRepo 6" />
         </Carousel.Item>
       </Carousel>
     </div>

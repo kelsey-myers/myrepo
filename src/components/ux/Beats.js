@@ -16,22 +16,22 @@ export default function Beats() {
     <div id="beats">
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img1} alt="Beats 1" />
+          <img className="gallery-img-ux w-100" src={img1} alt="Beats 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img2} alt="Beats 2" />
+          <img className="gallery-img-ux w-100" src={img2} alt="Beats 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img3} alt="Beats 3" />
+          <img className="gallery-img-ux w-100" src={img3} alt="Beats 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img4} alt="Beats 4" />
+          <img className="gallery-img-ux w-100" src={img4} alt="Beats 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img5} alt="Beats 5" />
+          <img className="gallery-img-ux w-100" src={img5} alt="Beats 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img6} alt="Beats 6" />
+          <img className="gallery-img-ux w-100" src={img6} alt="Beats 6" />
         </Carousel.Item>
       </Carousel>
     </div>

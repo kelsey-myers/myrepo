@@ -15,28 +15,28 @@ export default function Kelmone() {
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img1}
             alt="Kelmone School of Motoring 1"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img2}
             alt="Kelmone School of Motoring 2"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img3}
             alt="Kelmone School of Motoring 3"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img4}
             alt="Kelmone School of Motoring 4"
           />

@@ -14,16 +14,16 @@ export default function Environment() {
     <div>
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img" src={img1} alt="Environment 1" />
+          <img className="gallery-img-ux" src={img1} alt="Environment 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img2} alt="Environment 2" />
+          <img className="gallery-img-ux" src={img2} alt="Environment 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img3} alt="Environment 3" />
+          <img className="gallery-img-ux" src={img3} alt="Environment 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img" src={img4} alt="Environment 4" />
+          <img className="gallery-img-ux" src={img4} alt="Environment 4" />
         </Carousel.Item>
       </Carousel>
     </div>

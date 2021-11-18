@@ -16,22 +16,22 @@ export default function Patisserie() {
     <div id="beats">
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img1} alt="Patisserie 1" />
+          <img className="gallery-img-ux w-100" src={img1} alt="Patisserie 1" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img2} alt="Patisserie 2" />
+          <img className="gallery-img-ux w-100" src={img2} alt="Patisserie 2" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img3} alt="Patisserie 3" />
+          <img className="gallery-img-ux w-100" src={img3} alt="Patisserie 3" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img4} alt="Patisserie 4" />
+          <img className="gallery-img-ux w-100" src={img4} alt="Patisserie 4" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img5} alt="Patisserie 5" />
+          <img className="gallery-img-ux w-100" src={img5} alt="Patisserie 5" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="gallery-img w-100" src={img6} alt="Patisserie 6" />
+          <img className="gallery-img-ux w-100" src={img6} alt="Patisserie 6" />
         </Carousel.Item>
       </Carousel>
     </div>

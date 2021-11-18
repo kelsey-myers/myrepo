@@ -21,49 +21,49 @@ export default function TTTradeV2() {
       <Carousel indicators={false} interval={null}>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img1}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img2}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img3}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img4}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img5}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img6}
             alt="TT Trade Quotes V2 Gallery"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="gallery-img"
+            className="gallery-img-ux"
             src={img7}
             alt="TT Trade Quotes V2 Gallery"
           />

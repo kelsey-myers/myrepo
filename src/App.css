@@ -310,6 +310,16 @@ button:focus {
   box-shadow: 0px 2px 5px rgb(84, 87, 90);
 }
 
+.gallery-img-ux {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-img-portrait-ux {
+  width: auto;
+  height: 55vh;
+}
+
 #bootstrap-overrides .carousel-indicators li {
   width: 5px;
 }
@@ -475,6 +485,10 @@ button:focus {
 
 @media screen and (min-width: 1200px) {
   .gallery-img {
+    width: 60%;
+    margin: auto;
+  }
+  .gallery-img-ux {
     width: 60%;
     margin: auto;
   }
