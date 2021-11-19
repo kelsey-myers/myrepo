@@ -20,12 +20,14 @@ export default function Portfolio() {
           {project.imageDetails.map((image, index) => {
             return (
               <Carousel.Item className="mb-2">
-                <IKImage
-                  path={image.link}
-                  className={"gallery-img-ux"}
-                  alt={image.alt}
-                  lqip={{ active: true }}
-                />
+                <div className="carousel-img-container">
+                  <IKImage
+                    path={image.link}
+                    className={"gallery-img"}
+                    alt={image.alt}
+                    lqip={{ active: true }}
+                  />
+                </div>
               </Carousel.Item>
             );
           })}

@@ -24,16 +24,18 @@ export default function Portfolio() {
           {project.imageDetails.map((image, index) => {
             return (
               <Carousel.Item className="mb-2">
-                <IKImage
-                  path={image.link}
-                  className={
-                    image.orientation === "landscape"
-                      ? "gallery-img-ux w-100"
-                      : "gallery-img-ux"
-                  }
-                  alt={image.alt}
-                  lqip={{ active: true }}
-                />
+                <div className="carousel-img-container">
+                  <IKImage
+                    path={image.link}
+                    className={
+                      image.orientation === "landscape"
+                        ? "gallery-img-landscape-ux"
+                        : "gallery-img-portrait-ux"
+                    }
+                    alt={image.alt}
+                    lqip={{ active: true }}
+                  />
+                </div>
               </Carousel.Item>
             );
           })}
