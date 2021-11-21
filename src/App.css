@@ -310,6 +310,11 @@ button:focus {
   box-shadow: 0px 2px 5px rgb(84, 87, 90);
 }
 
+.gallery-img-portrait-video {
+  width: auto;
+  height: 60vh;
+}
+
 .gallery-img-portrait-ux {
   height: 100% !important;
   width: auto;

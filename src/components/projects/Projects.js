@@ -56,7 +56,7 @@ export default function Projects() {
       return (
         <video
           src={project.videoLink}
-          className="gallery-img-portrait"
+          className="gallery-img-portrait-video"
           alt={project.name + " video"}
           autoPlay
           loop

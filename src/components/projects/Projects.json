@@ -1,78 +1,90 @@
 [
-    {
-        "name": "ToDo List Revamped (WIP)",
-        "description": "A collaborative ToDo app built using full-stack technologies. The backend used a GraphQL API using an Apollo server, NodeJS, and MongoDB. The front-end used React Native. This is a revamp of the original ToDo list created a while back (scroll down!).",
-        "link": "https://github.com/kelsey-myers/taskade-app",
-        "linkDescription": "Source Code",
-        "image" : false,
-        "imageDetails" : [{
-            "link" : "",
-            "orientation": ""
-        }],
-        "videoLink" : "https://ik.imagekit.io/kelseymyers0/Projects/Simulator_Screen_Recording_-_iPhone_11_-_2021-11-17_at_17.49.35_JeHxI1uRS.mp4?updatedAt=1637227464176"
-    },
-    {
-        "name": "Tesla App",
-        "description": "My first React Native project. A replica of the Tesla homepage built for IOS.",        
-        "link": "https://github.com/kelsey-myers/tesla-app",
-        "linkDescription": "Source Code",
-        "image" : false,
-        "imageDetails" : [{
-            "link" : "",
-            "orientation": ""
-        }],
-        "videoLink" : "https://ik.imagekit.io/kelseymyers0/Projects/tesla-app_QziSMXB1m.mp4?updatedAt=1635607925200"
-    },
-    {
-        "name": "Hive",
-        "description": "A social media site using ReactJS, JavaScript, Node, MongoDB, and Express. The back-end was deployed with Heroku and the front-end with Netlify.",        
-        "link": "https://hive-km.netlify.app/",
-        "linkDescription": "Visit Project",
-        "image" : true,
-        "imageDetails" : [{
-            "link":"/Projects/hive_1_ByddwkFfs.png",
-           "orientation": "landscape"
-           },
-        {
-            "link": "/Projects/hive_2_Z1XfgXyxic.png",
-            "orientation": "portrait"
-        }],
-        "videoLink" : ""
-    },
-    {
-        "name": "Tic-Tac-Toe",
-        "description": "A minigame of Tic-Tac-Toe. This was the first React project I created! The game can be played below but it looks best on desktop (or desktop-mode on mobile)!",        
-        "link": "https://kelsey-myers.github.io/tic-tac-toe-react/",
-        "linkDescription": "Visit Project",
-        "image" : true,
-        "imageDetails" : [{
-            "link" : "/Projects/tictactoe_sWgy5AF7ZE0.png",
-            "orientation": "landscape"
-        }],
-        "videoLink" : ""
-    },
-    {
-        "name": "Google Homepage",
-        "description": "A concept Google Search homepage created when I first started to code!",        
-        "link": "https://kelsey-myers.github.io/google-homepage/",
-        "linkDescription": "Visit Project",
-        "image" : true,
-        "imageDetails" : [{
-            "link" : "/Projects/google_LYm6rw1xV.png",
-            "orientation": "landscape"
-        }],
-        "videoLink" : ""
-    },
-    {
-        "name": "ToDo List",
-        "description": "A basic to-do list with limited functionality. This is something I made when testing out various React features for the first time- I'm in the process of revamping this one!",        
-        "link": "https://kelsey-myers.github.io/react-todo-list/",
-        "linkDescription": "Visit Project",
-        "image" : true,
-        "imageDetails" : [{
-            "link" : "/Projects/todo_o8E6hrxxfp.png",
-            "orientation": "portrait"
-        }],
-        "videoLink" : ""
-    }
+  {
+    "name": "ToDo List Revamped (WIP)",
+    "description": "A collaborative ToDo app built using full-stack technologies. The backend used a GraphQL API using an Apollo server, NodeJS, and MongoDB. The front-end used React Native. This is a revamp of the original ToDo list created a while back (scroll down!).",
+    "link": "https://github.com/kelsey-myers/taskade-app",
+    "linkDescription": "Source Code",
+    "image": false,
+    "imageDetails": [
+      {
+        "link": "",
+        "orientation": ""
+      }
+    ],
+    "videoLink": "https://ik.imagekit.io/kelseymyers0/Projects/todo_s5TEejyWeY.mp4"
+  },
+  {
+    "name": "Tesla App",
+    "description": "My first React Native project. A replica of the Tesla homepage built for IOS.",
+    "link": "https://github.com/kelsey-myers/tesla-app",
+    "linkDescription": "Source Code",
+    "image": false,
+    "imageDetails": [
+      {
+        "link": "",
+        "orientation": ""
+      }
+    ],
+    "videoLink": "https://ik.imagekit.io/kelseymyers0/Projects/tesla_uMdy7h6jG.mp4"
+  },
+  {
+    "name": "Hive",
+    "description": "A social media site using ReactJS, JavaScript, Node, MongoDB, and Express. The back-end was deployed with Heroku and the front-end with Netlify.",
+    "link": "https://hive-km.netlify.app/",
+    "linkDescription": "Visit Project",
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/hive_1_ByddwkFfs.png",
+        "orientation": "landscape"
+      },
+      {
+        "link": "/Projects/hive_2_Z1XfgXyxic.png",
+        "orientation": "portrait"
+      }
+    ],
+    "videoLink": ""
+  },
+  {
+    "name": "Tic-Tac-Toe",
+    "description": "A minigame of Tic-Tac-Toe. This was the first React project I created! The game can be played below but it looks best on desktop (or desktop-mode on mobile)!",
+    "link": "https://kelsey-myers.github.io/tic-tac-toe-react/",
+    "linkDescription": "Visit Project",
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/tictactoe_sWgy5AF7ZE0.png",
+        "orientation": "landscape"
+      }
+    ],
+    "videoLink": ""
+  },
+  {
+    "name": "Google Homepage",
+    "description": "A concept Google Search homepage created when I first started to code!",
+    "link": "https://kelsey-myers.github.io/google-homepage/",
+    "linkDescription": "Visit Project",
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/google_LYm6rw1xV.png",
+        "orientation": "landscape"
+      }
+    ],
+    "videoLink": ""
+  },
+  {
+    "name": "ToDo List",
+    "description": "A basic to-do list with limited functionality. This is something I made when testing out various React features for the first time- I'm in the process of revamping this one!",
+    "link": "https://kelsey-myers.github.io/react-todo-list/",
+    "linkDescription": "Visit Project",
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/todo_o8E6hrxxfp.png",
+        "orientation": "portrait"
+      }
+    ],
+    "videoLink": ""
+  }
 ]
