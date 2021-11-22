@@ -1,4 +1,29 @@
-[
+[{
+  "name": "Cryptoverse",
+  "description": "A Cryptocurrency Site built using React.js and Redux. The data was fetched using RapidAPI, the styling done with Ant Design, and the chart created using Chart.js.",
+  "link": "https://kels-cryptoverse.netlify.app/",
+  "linkDescription": "Visit Site",
+  "image": true,
+  "imageDetails": [
+    {
+      "link": "/Projects/crypto1_mbnNDkNVvJo.png?updatedAt=1637598067608",
+      "orientation": "landscape"
+    },
+    {
+      "link": "/Projects/crypto2_sC6zMng41.png?updatedAt=1637598065762",
+      "orientation": "landscape"
+    },
+    {
+      "link": "/Projects/crypto3_zVlIWf8fC.png?updatedAt=1637598043593",
+      "orientation": "landscape"
+    },
+    {
+      "link": "/Projects/crypto4_g0PTB8qUC?updatedAt=1637598043930",
+      "orientation": "landscape"
+    }
+  ],
+  "videoLink": ""
+},
   {
     "name": "ToDo List Revamped (WIP)",
     "description": "A collaborative ToDo app built using full-stack technologies. The backend used a GraphQL API using an Apollo server, NodeJS, and MongoDB. The front-end used React Native. This is a revamp of the original ToDo list created a while back (scroll down!).",

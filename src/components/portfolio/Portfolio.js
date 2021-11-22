@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 
 import { Carousel } from "react-bootstrap";
 import PortfolioDocs from "./Portfolio.json";
-import { IKImage, IKContext, IKUpload } from "imagekitio-react";
+import { IKImage, IKContext } from "imagekitio-react";
 
 export default function Portfolio() {
   const getImages = (project) => {

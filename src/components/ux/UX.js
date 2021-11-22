@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Fade from "react-reveal";
-import { IKImage, IKContext, IKUpload } from "imagekitio-react";
+import { IKImage, IKContext } from "imagekitio-react";
 
 import { Carousel } from "react-bootstrap";
 import UXDocs from "./UX.json";

@@ -10,7 +10,7 @@ import Fade from "react-reveal/Fade";
 
 import ProjectsDoc from "./Projects.json";
 import Carousel from "react-bootstrap/Carousel";
-import { IKImage, IKContext, IKUpload } from "imagekitio-react";
+import { IKImage, IKContext } from "imagekitio-react";
 
 export default function Projects() {
   const [projects, setProjects] = useState(ProjectsDoc);
@@ -23,16 +23,22 @@ export default function Projects() {
             {project.imageDetails.map((image, index) => {
               return (
                 <Carousel.Item className="mb-2">
-                  <IKImage
-                    path={image.link}
-                    className={
-                      image.orientation === "landscape"
-                        ? "gallery-img"
-                        : "gallery-img-portrait"
-                    }
-                    alt={project.name + " screenshot " + index}
-                    lqip={{ active: true }}
-                  />
+                  <a
+                    href={"https://ik.imagekit.io/kelseymyers0" + image.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IKImage
+                      path={image.link}
+                      className={
+                        image.orientation === "landscape"
+                          ? "gallery-img"
+                          : "gallery-img-portrait"
+                      }
+                      alt={project.name + " screenshot " + index}
+                      lqip={{ active: true }}
+                    />
+                  </a>
                 </Carousel.Item>
               );
             })}
@@ -40,27 +46,38 @@ export default function Projects() {
         );
       } else {
         return (
-          <IKImage
-            path={project.imageDetails[0].link}
-            className={
-              project.imageDetails[0].orientation === "landscape"
-                ? "gallery-img"
-                : "gallery-img-portrait"
+          <a
+            href={
+              "https://ik.imagekit.io/kelseymyers0" +
+              project.imageDetails[0].link
             }
-            alt={project.name + " screenshot"}
-            lqip={{ active: true }}
-          />
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IKImage
+              path={project.imageDetails[0].link}
+              className={
+                project.imageDetails[0].orientation === "landscape"
+                  ? "gallery-img"
+                  : "gallery-img-portrait"
+              }
+              alt={project.name + " screenshot"}
+              lqip={{ active: true }}
+            />
+          </a>
         );
       }
     } else {
       return (
-        <video
-          src={project.videoLink}
-          className="gallery-img-portrait-video"
-          alt={project.name + " video"}
-          autoPlay
-          loop
-        />
+        <a href={project.videoLink} target="_blank" rel="noopener noreferrer">
+          <video
+            src={project.videoLink}
+            className="gallery-img-portrait-video"
+            alt={project.name + " video"}
+            autoPlay
+            loop
+          />
+        </a>
       );
     }
   };
@@ -105,7 +122,8 @@ export default function Projects() {
                     <h4 className="bebas text-center">{project.name}</h4>
                     <br />
                     <p className="lato text-center">
-                      {project.description}
+                      {project.description +
+                        " Click on each image to enlarge it in a new tab."}
                       <br />
                       <br />
                       <a
