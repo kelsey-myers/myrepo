@@ -16,7 +16,58 @@ export default function Projects() {
   const [projects, setProjects] = useState(ProjectsDoc);
 
   const getImages = (project) => {
-    if (project.image) {
+    if (project.image && project.video) {
+      return (
+        <Carousel indicators={false} interval={null}>
+          <Carousel.Item>
+            <div className="carousel-img-container">
+              <a
+                href={project.videoLink.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <video
+                  src={project.videoLink.link}
+                  className={
+                    project.videoLink.orientation === "portrait"
+                      ? "gallery-img-portrait-video"
+                      : "gallery-img-landscape-video"
+                  }
+                  alt={project.name + " video"}
+                  autoPlay
+                  loop
+                />
+              </a>
+            </div>
+          </Carousel.Item>
+
+          {project.imageDetails.map((image, index) => {
+            return (
+              <Carousel.Item className="mb-2">
+                <div className="carousel-img-container">
+                  <a
+                    href={"https://ik.imagekit.io/kelseymyers0" + image.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <IKImage
+                      path={image.link}
+                      className={
+                        image.orientation === "landscape"
+                          ? "gallery-img"
+                          : "gallery-img-portrait"
+                      }
+                      alt={project.name + " screenshot " + index}
+                      lqip={{ active: true }}
+                    />
+                  </a>
+                </div>
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+      );
+    } else if (project.image) {
       if (project.imageDetails.length > 1) {
         return (
           <Carousel indicators={false} interval={null}>
@@ -69,10 +120,18 @@ export default function Projects() {
       }
     } else {
       return (
-        <a href={project.videoLink} target="_blank" rel="noopener noreferrer">
+        <a
+          href={project.videoLink.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <video
-            src={project.videoLink}
-            className="gallery-img-portrait-video"
+            src={project.videoLink.link}
+            className={
+              project.videoLink.orientation === "portrait"
+                ? "gallery-img-portrait-video"
+                : "gallery-img-landscape-video"
+            }
             alt={project.name + " video"}
             autoPlay
             loop

@@ -301,7 +301,8 @@ button:focus {
 .gallery-img {
   width: 100%;
   height: auto;
-  box-shadow: 0px 0px 5px rgb(84, 87, 90);
+  box-shadow: 2px 2px 3px 1px rgb(165, 166, 167);
+  border-radius: 10px;
 }
 
 .gallery-img-portrait {
@@ -315,15 +316,26 @@ button:focus {
   height: 60vh;
 }
 
+.gallery-img-landscape-video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
+}
+
 .gallery-img-portrait-ux {
   height: 100% !important;
   width: auto;
   height: auto;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
+  border-radius: 10px;
 }
 
 .gallery-img-landscape-ux {
   height: auto;
   width: 100%;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
+  border-radius: 10px;
 }
 
 #bootstrap-overrides .carousel-indicators li {
@@ -336,7 +348,9 @@ button:focus {
 }
 
 /*Projects Component*/
-
+.carousel-inner {
+  padding: 10px !important;
+}
 #projects {
   background-image: url("./img/mountains.jpg");
   background-size: cover;
@@ -448,6 +462,7 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (max-width: 767px) {
 }
 

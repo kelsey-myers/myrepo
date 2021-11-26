@@ -1,34 +1,31 @@
 [{
-  "name": "Cryptoverse",
-  "description": "A Cryptocurrency Site built using React.js and Redux. The data was fetched using RapidAPI, the styling done with Ant Design, and the chart created using Chart.js.",
-  "link": "https://kels-cryptoverse.netlify.app/",
+  "name": "Chatter",
+  "description": "A Firebase-based chat application, with key highlights being social authentication including Google and Twitter, online statuses, minimal design, image support, sound notifications, and the ability to create multiple rooms. Created using React, Firebase, React Context, Chat Engine, and a REST API. Try it out for yourself!",
+  "link": "https://kels-chatter.netlify.app/",
   "linkDescription": "Visit Site",
+  "video": true,
   "image": true,
   "imageDetails": [
     {
-      "link": "/Projects/crypto1_mbnNDkNVvJo.png?updatedAt=1637598067608",
+      "link": "/Projects/chatter-1_fU9zixJub.png?updatedAt=1637936153371",
       "orientation": "landscape"
     },
     {
-      "link": "/Projects/crypto2_sC6zMng41.png?updatedAt=1637598065762",
-      "orientation": "landscape"
-    },
-    {
-      "link": "/Projects/crypto3_zVlIWf8fC.png?updatedAt=1637598043593",
-      "orientation": "landscape"
-    },
-    {
-      "link": "/Projects/crypto4_g0PTB8qUC?updatedAt=1637598043930",
+      "link": "/Projects/chatter-2_-UBklyaNh.png?updatedAt=1637936151719",
       "orientation": "landscape"
     }
   ],
-  "videoLink": ""
+  "videoLink": {
+    "link": "https://ik.imagekit.io/kelseymyers0/Projects/chatter_qvmjgX-Ixa.mp4",
+    "orientation": "landscape"
+  }
 },
   {
     "name": "ToDo List Revamped (WIP)",
     "description": "A collaborative ToDo app built using full-stack technologies. The backend used a GraphQL API using an Apollo server, NodeJS, and MongoDB. The front-end used React Native. This is a revamp of the original ToDo list created a while back (scroll down!).",
     "link": "https://github.com/kelsey-myers/taskade-app",
     "linkDescription": "Source Code",
+    "video": true,
     "image": false,
     "imageDetails": [
       {
@@ -36,13 +33,17 @@
         "orientation": ""
       }
     ],
-    "videoLink": "https://ik.imagekit.io/kelseymyers0/Projects/todo_s5TEejyWeY.mp4"
+    "videoLink": {
+      "link": "https://ik.imagekit.io/kelseymyers0/Projects/todo_s5TEejyWeY.mp4",
+      "orientation": "portrait"
+    } 
   },
   {
     "name": "Tesla App",
     "description": "My first React Native project. A replica of the Tesla homepage built for IOS.",
     "link": "https://github.com/kelsey-myers/tesla-app",
     "linkDescription": "Source Code",
+    "video": true,
     "image": false,
     "imageDetails": [
       {
@@ -50,13 +51,17 @@
         "orientation": ""
       }
     ],
-    "videoLink": "https://ik.imagekit.io/kelseymyers0/Projects/tesla_uMdy7h6jG.mp4"
+    "videoLink": {
+      "link": "https://ik.imagekit.io/kelseymyers0/Projects/tesla_uMdy7h6jG.mp4",
+      "orientation": "portrait"
+    } 
   },
   {
     "name": "Hive",
     "description": "A social media site using ReactJS, JavaScript, Node, MongoDB, and Express. The back-end was deployed with Heroku and the front-end with Netlify.",
     "link": "https://hive-km.netlify.app/",
     "linkDescription": "Visit Project",
+    "video": false,
     "image": true,
     "imageDetails": [
       {
@@ -68,13 +73,17 @@
         "orientation": "portrait"
       }
     ],
-    "videoLink": ""
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    } 
   },
   {
     "name": "Tic-Tac-Toe",
     "description": "A minigame of Tic-Tac-Toe. This was the first React project I created! The game can be played below but it looks best on desktop (or desktop-mode on mobile)!",
     "link": "https://kelsey-myers.github.io/tic-tac-toe-react/",
     "linkDescription": "Visit Project",
+    "video": false,
     "image": true,
     "imageDetails": [
       {
@@ -82,13 +91,17 @@
         "orientation": "landscape"
       }
     ],
-    "videoLink": ""
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    } 
   },
   {
     "name": "Google Homepage",
     "description": "A concept Google Search homepage created when I first started to code!",
     "link": "https://kelsey-myers.github.io/google-homepage/",
     "linkDescription": "Visit Project",
+    "video": false,
     "image": true,
     "imageDetails": [
       {
@@ -96,13 +109,17 @@
         "orientation": "landscape"
       }
     ],
-    "videoLink": ""
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    } 
   },
   {
     "name": "ToDo List",
     "description": "A basic to-do list with limited functionality. This is something I made when testing out various React features for the first time- I'm in the process of revamping this one!",
     "link": "https://kelsey-myers.github.io/react-todo-list/",
     "linkDescription": "Visit Project",
+    "video": false,
     "image": true,
     "imageDetails": [
       {
@@ -110,6 +127,9 @@
         "orientation": "portrait"
       }
     ],
-    "videoLink": ""
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    } 
   }
 ]
