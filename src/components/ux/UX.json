@@ -1,6 +1,7 @@
 [
     {
-        "name": "100 Days of Design",
+      "type": "100Days",  
+      "name": "100 Days of Design",
         "description": "I decided to develop my UX skills my taking part in the 100 Days of Design Challenge. Click on each image to enlarge it in a new tab.",
         "imageDetails" : [ {
             "link":
@@ -220,7 +221,8 @@
           }]
     },
     {
-        "name": "TT Trade Quotes",
+      "type": "Other",  
+      "name": "TT Trade Quotes",
         "description": "A simple modern design for a quote-finding company, TT Trade Quotes.",        
         "imageDetails" : [{
             "link" : "/TradeV2/img1_k5joPTJptNnb.png",
@@ -259,7 +261,8 @@
         }]
     },
     {
-        "name": "MyRepo",
+      "type": "Other",  
+      "name": "MyRepo",
         "description": "Oh hey it's my own website! This is a portfolio design which can easily be customised to anyone's personal taste.",        
         "imageDetails" : [{
             "link" : "/UX/MY1_hVg2Ud_S03Kv.png",
@@ -293,7 +296,8 @@
         }]
     },
     {
-        "name": "Patisserie",
+      "type": "Other",  
+      "name": "Patisserie",
         "description": "A few artboards from a mockup designed for a bakery client. The brief was to provide a light and airy theme to the website, with strong inspiration from French patisseries.",        
         "imageDetails" : [{
             "link" : "/UX/CAKE1_oPlTK4AJM.png",
@@ -327,7 +331,8 @@
         }]
     },
     {
-        "name": "Beats",
+      "type": "Other",  
+      "name": "Beats",
         "description": "A few artboards from a minimal shop theme designed by myself. This was made primarily for technology-oriented businesses. The landing page will be an autoplay video which displays the main product.",        
         "imageDetails" : [{
             "link" : "/UX/PROD1_shQLyblHx.png",
@@ -361,7 +366,8 @@
         }]
     },
     {
-        "name": "Nature",
+      "type": "Other",  
+      "name": "Nature",
         "description": "A sample from a simple theme designed for environmental organisations. The inspiration here was nature, simplicity, and shades of green!",        
         "imageDetails" : [{
             "link" : "/UX/EN1_wAv-R8sAN.png",

@@ -334,6 +334,19 @@ button:focus {
   border-radius: 10px;
 }
 
+.gallery-img-portrait-ux-other {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
+}
+
+.gallery-img-landscape-ux-other {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgb(84, 87, 90);
+}
+
 #bootstrap-overrides .carousel-indicators li {
   width: 5px;
 }
@@ -453,7 +466,6 @@ button:focus {
 }
 
 .carousel-img-container {
-  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -464,8 +476,13 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .gallery-img-portrait-ux {
-    height: 100% !important;
     width: auto;
+    height: 100%;
+  }
+
+  .gallery-img-portrait-ux-other {
+    width: auto;
+    height: 100%;
   }
   #rose-grey {
     width: 30%;
@@ -512,8 +529,9 @@ button:focus {
 
 @media screen and (min-width: 1200px) {
   .gallery-img {
-    width: 60%;
+    width: auto;
     margin: auto;
+    height: 100%;
   }
 
   .carousel-img-container {

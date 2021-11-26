@@ -18,7 +18,7 @@ import UXDocs from "./UX.json";
 
 export default function Portfolio() {
   const getImages = (project) => {
-    if (project.imageDetails.length > 1) {
+    if (project.type === "100Days") {
       return (
         <Carousel indicators={false} interval={null}>
           {project.imageDetails.map((image, index) => {
@@ -43,16 +43,26 @@ export default function Portfolio() {
       );
     } else {
       return (
-        <IKImage
-          path={project.imageDetails[0].link}
-          className={
-            project.imageDetails[0].orientation === "landscape"
-              ? "gallery-img-ux w-100"
-              : "gallery-img-portrait-ux"
-          }
-          alt={project.imageDetails[0].alt}
-          lqip={{ active: true }}
-        />
+        <Carousel indicators={false} interval={null}>
+          {project.imageDetails.map((image, index) => {
+            return (
+              <Carousel.Item className="mb-2">
+                <div className="carousel-img-container">
+                  <IKImage
+                    path={image.link}
+                    className={
+                      image.orientation === "landscape"
+                        ? "gallery-img-landscape-ux-other"
+                        : "gallery-img-portrait-ux-other"
+                    }
+                    alt={image.alt}
+                    lqip={{ active: true }}
+                  />
+                </div>
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
       );
     }
   };
