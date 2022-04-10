@@ -1,15 +1,12 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
-import Fade from "react-reveal/Fade";
-
+import { Container, Row, Col } from "react-bootstrap";
+import { Fade } from "react-reveal";
 import rose from "../img/rosegrey.png";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <div className="home">
         <Container className="centering padding-fit">
           <Row>
@@ -27,14 +24,13 @@ export default function Home() {
           <h4 className="bebas text-center"> About </h4>
 
           <p className="text-black text-center lato">
-            Hi! I'm Kelsey, a 23 year-old software engineer from London who
-            specialises in {""} front-end engineering and UX, specifically using{" "}
-            <b>JavaScript</b>, <b>React</b>, <b>Node</b> and learning many more!{" "}
+            Hi! I'm Kelsey, a software engineer from London who specialises in{" "}
+            front-end engineering and UX, specifically using Javascript
+            frameworks.
             <br />
             <br />
-            I'm currently completing my Master's degree in Computer Science and
-            in the meantime, I enjoy designing and creating websites for clients
-            and working on my own personal projects. Feel free to browse what
+            I enjoy designing and creating websites for clients and working on
+            my own personal projects in my spare time. Feel free to browse what
             I've created and get in contact if you'd like some work done! <br />
           </p>
         </Fade>
@@ -44,13 +40,14 @@ export default function Home() {
           <Fade bottom>
             <h4 className="bebas mb-3"> Currently working on: </h4>
             <img src={rose} id="rose-grey" className="mb-3" alt="rose" />
-            <h5 className="bebas">Shapely Decor</h5>
+            <h5 className="bebas">The Survivor Project</h5>
             <p className="lato">
-              An e-commerce website for a client specialising in home decor.
+              A charity which was founded to provide advice and guidance on
+              domestic abuse and has helped hundreds of people around the UK.
             </p>
           </Fade>
         </Container>
       </Container>
-    </div>
+    </>
   );
 }

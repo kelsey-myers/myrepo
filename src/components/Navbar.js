@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
 import UseAnimations from "react-useanimations";
 import menu4 from "react-useanimations/lib/menu4";
 
@@ -16,7 +13,7 @@ export default function NavBar() {
   return (
     <Navbar
       onToggle={() => {
-        setChecked(!checked);
+        setChecked((prevChecked) => !prevChecked);
       }}
       variant="dark"
       className="fixed-top beige"

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,27 +13,25 @@ import Carousel from "react-bootstrap/Carousel";
 import { IKImage, IKContext } from "imagekitio-react";
 
 export default function Projects() {
-  const [projects, setProjects] = useState(ProjectsDoc);
-
-  const getImages = (project) => {
-    if (project.image && project.video) {
+  const getImages = ({ image, imageDetails, video, videoLink, name }) => {
+    if (image && video) {
       return (
         <Carousel indicators={false} interval={null}>
           <Carousel.Item>
             <div className="carousel-img-container">
               <a
-                href={project.videoLink.link}
+                href={videoLink.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <video
-                  src={project.videoLink.link}
+                  src={videoLink.link}
                   className={
-                    project.videoLink.orientation === "portrait"
+                    videoLink.orientation === "portrait"
                       ? "gallery-img-portrait-video"
                       : "gallery-img-landscape-video"
                   }
-                  alt={project.name + " video"}
+                  alt={name + " video"}
                   autoPlay
                   loop
                 />
@@ -41,98 +39,83 @@ export default function Projects() {
             </div>
           </Carousel.Item>
 
-          {project.imageDetails.map((image, index) => {
-            return (
-              <Carousel.Item className="mb-2">
-                <div className="carousel-img-container">
-                  <a
-                    href={"https://ik.imagekit.io/kelseymyers0" + image.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <IKImage
-                      path={image.link}
-                      className={
-                        image.orientation === "landscape"
-                          ? "gallery-img"
-                          : "gallery-img-portrait"
-                      }
-                      alt={project.name + " screenshot " + index}
-                      lqip={{ active: true }}
-                    />
-                  </a>
-                </div>
-              </Carousel.Item>
-            );
-          })}
+          {imageDetails.map((image, index) => (
+            <Carousel.Item className="mb-2" key={index}>
+              <div className="carousel-img-container">
+                <a
+                  href={"https://ik.imagekit.io/kelseymyers0" + image.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IKImage
+                    path={image.link}
+                    className={
+                      image.orientation === "landscape"
+                        ? "gallery-img"
+                        : "gallery-img-portrait"
+                    }
+                    alt={name + " screenshot " + index}
+                    lqip={{ active: true }}
+                  />
+                </a>
+              </div>
+            </Carousel.Item>
+          ))}
         </Carousel>
       );
-    } else if (project.image) {
-      if (project.imageDetails.length > 1) {
-        return (
-          <Carousel indicators={false} interval={null}>
-            {project.imageDetails.map((image, index) => {
-              return (
-                <Carousel.Item className="mb-2">
-                  <a
-                    href={"https://ik.imagekit.io/kelseymyers0" + image.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <IKImage
-                      path={image.link}
-                      className={
-                        image.orientation === "landscape"
-                          ? "gallery-img"
-                          : "gallery-img-portrait"
-                      }
-                      alt={project.name + " screenshot " + index}
-                      lqip={{ active: true }}
-                    />
-                  </a>
-                </Carousel.Item>
-              );
-            })}
-          </Carousel>
-        );
-      } else {
-        return (
-          <a
-            href={
-              "https://ik.imagekit.io/kelseymyers0" +
-              project.imageDetails[0].link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IKImage
-              path={project.imageDetails[0].link}
-              className={
-                project.imageDetails[0].orientation === "landscape"
-                  ? "gallery-img"
-                  : "gallery-img-portrait"
-              }
-              alt={project.name + " screenshot"}
-              lqip={{ active: true }}
-            />
-          </a>
-        );
-      }
-    } else {
-      return (
+    } else if (image) {
+      return imageDetails.length > 1 ? (
+        <Carousel indicators={false} interval={null}>
+          {imageDetails.map((image, index) => (
+            <Carousel.Item className="mb-2" key={index}>
+              <a
+                href={"https://ik.imagekit.io/kelseymyers0" + image.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IKImage
+                  path={image.link}
+                  className={
+                    image.orientation === "landscape"
+                      ? "gallery-img"
+                      : "gallery-img-portrait"
+                  }
+                  alt={name + " screenshot " + index}
+                  lqip={{ active: true }}
+                />
+              </a>
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      ) : (
         <a
-          href={project.videoLink.link}
+          href={"https://ik.imagekit.io/kelseymyers0" + imageDetails[0].link}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <video
-            src={project.videoLink.link}
+          <IKImage
+            path={imageDetails[0].link}
             className={
-              project.videoLink.orientation === "portrait"
+              imageDetails[0].orientation === "landscape"
+                ? "gallery-img"
+                : "gallery-img-portrait"
+            }
+            alt={name + " screenshot"}
+            lqip={{ active: true }}
+          />
+        </a>
+      );
+    } else {
+      return (
+        <a href={videoLink.link} target="_blank" rel="noopener noreferrer">
+          <video
+            src={videoLink.link}
+            className={
+              videoLink.orientation === "portrait"
                 ? "gallery-img-portrait-video"
                 : "gallery-img-landscape-video"
             }
-            alt={project.name + " video"}
+            alt={name + " video"}
             autoPlay
             loop
           />
@@ -142,7 +125,7 @@ export default function Projects() {
   };
 
   return (
-    <div>
+    <>
       <div id="projects">
         <Container className="projects-div padding-fit">
           <Fade>
@@ -162,7 +145,7 @@ export default function Projects() {
           transformationPosition="path"
         >
           <Fade bottom>
-            {projects.map((project, index) => {
+            {ProjectsDoc.map((project, index) => {
               return (
                 <Row
                   key={index}
@@ -200,6 +183,6 @@ export default function Projects() {
           </Fade>
         </IKContext>
       </Container>
-    </div>
+    </>
   );
 }
