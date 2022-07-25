@@ -1,5 +1,49 @@
 [
   {
+    "name": "HeptaBlox",
+    "description": "A word game inspired by NY Times’ Spelling Bee. You need to create as many words as you can from the letters possible, and you must use the center letter in every word you submit. Have a try! Created using React.js.",
+    "link": "https://kelsey-myers.github.io/heptablox/",
+    "linkDescription": "Visit Project",
+    "video": false,
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/hepta_1_yTazistmc.png",
+        "orientation": "portrait"
+      },
+      {
+        "link": "/Projects/hepta_2_HfMbTf2_b0.png",
+        "orientation": "portrait"
+      }
+    ],
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    }
+  },
+  {
+    "name": "Scrypt",
+    "description": "A Web 3.0 application  connected to the blockchain, and uses metamask pairing. Allows for interaction with smart contracts, and allows users to send Ethereum through the blockchain network, writing solidity. This was built using React, Solidity, Hardhat for testing, and Alchemy for smart contract deployment.",
+    "link": "https://kelsey-myers.github.io/scrypt/",
+    "linkDescription": "Visit Project",
+    "video": false,
+    "image": true,
+    "imageDetails": [
+      {
+        "link": "/Projects/scrypt_1.png",
+        "orientation": "portrait"
+      },
+      {
+        "link": "/Projects/scrypt_2_HT9eRhJJZ.png",
+        "orientation": "portrait"
+      }
+    ],
+    "videoLink": {
+      "link": "",
+      "orientation": ""
+    }
+  },
+  {
     "name": "Chatter",
     "description": "A Firebase-based chat application, with key highlights being social authentication including Google and Twitter, online statuses, minimal design, image support, sound notifications, and the ability to create multiple rooms. Created using React, Firebase, React Context, Chat Engine, and a REST API. Try it out for yourself!",
     "link": "https://kels-chatter.netlify.app/",

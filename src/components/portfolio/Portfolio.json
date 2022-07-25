@@ -2,8 +2,8 @@
   {
     "name": "TT Trade Quotes - Revamped",
     "description": "A revamped website for TT Trade Quotes. I decided to give the website a more modern feel while keeping to the same colour scheme as before. This website has the following features: <br /> <br /> - Built with React, HTML, CSS & JavaScript <br /> - Responsive <br /> - Registration Form <br /> - Quote Request Form with Image Uploads <br /> - Contact Section with Phone <br /> - Gallery <br /> - Social Media Links",
-    "link": "https://tttradequotes.co.uk/",
-    "linkDescription": "Visit Website",
+    "link": "",
+    "linkDescription": "Website unavailable",
     "imageDetails": [
       {
         "link": "/TradeV2/img1_k5joPTJptNnb.png",
@@ -87,22 +87,47 @@
     "linkDescription": "Visit Website",
     "imageDetails": [
       {
-        "link": "/Dev/KEL1_8IIL-y2M7.PNG",
+        "link": "/Dev/KELMONE1_USje4JK9k.png",
         "orientation": "portrait",
         "alt": "Kelmone SOM Gallery"
       },
       {
-        "link": "/Dev/KEL2_mVgZivXXY.PNG",
+        "link": "/Dev/KELMONE2_OEomBs5PU.png",
         "orientation": "portrait",
         "alt": "Kelmone SOM Gallery"
       },
       {
-        "link": "/Dev/KEL3_gvHdrP_8vFg.PNG",
+        "link": "/Dev/KELMONE3_0ksuEKEny.png",
         "orientation": "portrait",
         "alt": "Kelmone SOM Gallery"
       },
       {
-        "link": "/Dev/KEL4_d26dJRvVvdQ.PNG",
+        "link": "/Dev/KELMONE4_hCh0t9JmVh.png",
+        "orientation": "portrait",
+        "alt": "Kelmone SOM Gallery"
+      },
+      {
+        "link": "/Dev/KELMONE5_z7V6EEzGS.png",
+        "orientation": "portrait",
+        "alt": "Kelmone SOM Gallery"
+      },
+      {
+        "link": "/Dev/KELMONE6_6tqoYmHOF.png",
+        "orientation": "portrait",
+        "alt": "Kelmone SOM Gallery"
+      },
+      {
+        "link": "/Dev/KELMONE7_JHsGPLZke.png",
+        "orientation": "portrait",
+        "alt": "Kelmone SOM Gallery"
+      },
+      {
+        "link": "/Dev/KELMONE8_4B0vZ3qR1.png",
+        "orientation": "portrait",
+        "alt": "Kelmone SOM Gallery"
+      },
+      {
+        "link": "/Dev/KELMONE9_arXVw-4kk.png",
         "orientation": "portrait",
         "alt": "Kelmone SOM Gallery"
       }
@@ -111,7 +136,7 @@
   {
     "name": "TT Trade Quotes",
     "description": "TT Trade Quotes is a quote-finding service which matches tradesmen with clients and vice-versa, and it is based in London. This is a regular package multi-page website with the following features: <br /> <br /> - Built with HTML, CSS, JavaScript and PHP <br /> - Responsive <br /> - Registration Form <br /> - Quote Request Form with Image Upload <br /> - Contact Section with Phone <br /> - Gallery <br /> - Social Media Links",
-    "link": "https://tttradequotes.co.uk/",
+    "link": "",
     "linkDescription": "Visit Website",
     "imageDetails": [
       {
@@ -159,7 +184,7 @@
   {
     "name": "RahmoneTK",
     "description": "RahmoneTK is a Twitch streamer and Smash Bros player. He is also a graphic artist and wanted a portfolio website to display his works. This is a regular multi-page website with the following features:  <br/> <br/> - Built with HTML, CSS, JavaScript and PHP <br/> - Responsive <br/> - Like Button <br/> - Contact Section with Email & Phone <br/> - Multiple Galleries <br/> - Social Media Links",
-    "link": "https://rahmone.shop/",
+    "link": "",
     "linkDescription": "Visit Website",
     "imageDetails": [
       {

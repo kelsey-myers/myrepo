@@ -84,13 +84,15 @@ export default function Portfolio() {
                   ></p>
                   <p className="lato text-center">
                     <br />
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {project.linkDescription}
-                    </a>
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {project.linkDescription}
+                      </a>
+                    )}
                   </p>
                 </Col>
               </Row>
