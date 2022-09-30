@@ -1,13 +1,13 @@
-import React from "react";
-import Home from "./components/Home";
-import Portfolio from "./components/portfolio/Portfolio";
-import UX from "./components/ux/UX";
-import Projects from "./components/projects/Projects";
+import { Route, Switch } from "react-router-dom";
+
 import Contact from "./components/Contact";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
-
-import { Switch, Route } from "react-router-dom";
+import Portfolio from "./components/portfolio/Portfolio";
+import Projects from "./components/projects/Projects";
+import React from "react";
+import UX from "./components/ux/UX";
 
 export default class App extends React.Component {
   render() {
@@ -19,13 +19,13 @@ export default class App extends React.Component {
             <Home />
           </Route>
           <Route path="/dev-portfolio">
-            <Portfolio />
+            <Home />
           </Route>
           <Route path="/design-portfolio">
-            <UX />
+            <Home />
           </Route>
           <Route path="/projects">
-            <Projects />
+            <Home />
           </Route>
           <Route path="/contact">
             <Contact />
